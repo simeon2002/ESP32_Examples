@@ -1,0 +1,109 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM9 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM9 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x403787ca: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x403786dd: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:223
+ (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:232
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x403786da: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:216
+ (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:232
+0x4037ad79: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h:132
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+0x4037b9dc: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xEventGroupSetBits at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:567
+0x4037ba4d: vEventGroupSetBitsCallback at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:753
+0x4037b67a: prvProcessReceivedCommands at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:871
+0x4037b79f: prvTimerTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:688 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403787ca: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x403787c7: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:55
+0x42002bae: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/freertos_hooks.c:58
+0x4037c0bd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375a94: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x403786dd: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:223
+ (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:232
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x403786da: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:216
+ (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:232
+0x4037ad79: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h:132
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+0x4037b9dc: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xEventGroupSetBits at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:567
+0x4037ba4d: vEventGroupSetBitsCallback at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:753
+0x4037b67a: prvProcessReceivedCommands at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:871
+0x4037b79f: prvTimerTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:688 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403787ca: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x403787c7: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:55
+0x42002bae: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/freertos_hooks.c:58
+0x4037c0bd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x42002403: panic_handler at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/panic_handler.c:154 (discriminator 1)
+[0m
+[0;33m--- 0x403786e6: esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:239
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x403786e3: esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:239
+0x4037ad79: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h:132
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+0x4037b9dc: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xEventGroupSetBits at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:567
+0x4037ba4d: vEventGroupSetBitsCallback at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:753
+0x4037b67a: prvProcessReceivedCommands at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:871
+0x4037b79f: prvTimerTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:688 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403787ca: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x403787c7: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:55
+0x42002bae: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/freertos_hooks.c:58
+0x4037c0bd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375a94: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037ad7c: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h:133
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+[0m
+[0;33m--- 0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m--- 0x4037ad79: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h:132
+ (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+0x4037b912: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+ (inlined by) xEventGroupWaitBits at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/event_groups.c:354
+0x420097e7: servo_button_task at S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/main/Servo_Control.c:85
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x403787ca: esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x403787c7: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/cpu.c:55
+0x42002bae: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/freertos_hooks.c:58
+0x4037c0bd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+0x4037ab3d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375a94: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

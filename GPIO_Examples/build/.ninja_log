@@ -1362,3 +1362,681 @@
 662	942	7666997589927753	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
 942	4521	7666997590043021	CMakeFiles/flash	4586a78ab276b6e5
 942	4521	7666997590043021	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+156	562	7667063010662687	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+156	562	7667063010662687	bootloader/bootloader.elf	60afb70ae559b595
+156	562	7667063010662687	bootloader/bootloader.bin	60afb70ae559b595
+156	562	7667063010662687	bootloader/bootloader.map	60afb70ae559b595
+156	562	7667063010662687	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+156	562	7667063010662687	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+156	562	7667063010662687	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+156	562	7667063010662687	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+562	662	7667063014722941	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+562	662	7667063014722941	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+663	923	7667063018234032	CMakeFiles/bootloader-complete	567fb6e306a61f83
+663	923	7667063018234032	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+663	923	7667063018234032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+663	923	7667063018234032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+126	504	7667063387184119	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+126	504	7667063387184119	bootloader/bootloader.elf	60afb70ae559b595
+126	504	7667063387184119	bootloader/bootloader.bin	60afb70ae559b595
+126	504	7667063387184119	bootloader/bootloader.map	60afb70ae559b595
+126	504	7667063387184119	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+126	504	7667063387184119	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+126	504	7667063387184119	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+126	504	7667063387184119	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+504	606	7667063390962971	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+504	606	7667063390962971	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+606	812	7667063393936037	CMakeFiles/bootloader-complete	567fb6e306a61f83
+606	812	7667063393936037	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+606	812	7667063393936037	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+606	812	7667063393936037	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+117	924	7667063387094002	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+925	1265	7667063395162493	esp-idf/main/libmain.a	344baa74d5982f59
+1265	17151	7667063557047551	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1265	17151	7667063557047551	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+17152	18484	7667063557436503	GPIO_Example.elf	477c8b02c37f65b8
+18485	18994	7667063575764985	.bin_timestamp	8ab2d32ed7fa9124
+18485	18994	7667063575764985	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18994	19202	7667063575859310	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18994	19202	7667063575859310	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+116	310	7667063584486075	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+116	310	7667063584486075	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+101	463	7667063584330405	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+101	463	7667063584330405	bootloader/bootloader.elf	60afb70ae559b595
+101	463	7667063584330405	bootloader/bootloader.bin	60afb70ae559b595
+101	463	7667063584330405	bootloader/bootloader.map	60afb70ae559b595
+101	463	7667063584330405	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+101	463	7667063584330405	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+101	463	7667063584330405	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+101	463	7667063584330405	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+463	576	7667063587959010	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+463	576	7667063587959010	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+577	785	7667063591078043	CMakeFiles/bootloader-complete	567fb6e306a61f83
+577	785	7667063591078043	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+577	785	7667063591078043	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+577	785	7667063591078043	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+785	4299	7667063591173200	CMakeFiles/flash	4586a78ab276b6e5
+785	4299	7667063591173200	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+109	499	7667065252996770	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+109	499	7667065252996770	bootloader/bootloader.elf	60afb70ae559b595
+109	499	7667065252996770	bootloader/bootloader.bin	60afb70ae559b595
+109	499	7667065252996770	bootloader/bootloader.map	60afb70ae559b595
+109	499	7667065252996770	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+109	499	7667065252996770	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+109	499	7667065252996770	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+109	499	7667065252996770	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+500	613	7667065256900893	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+500	613	7667065256900893	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+613	833	7667065260133968	CMakeFiles/bootloader-complete	567fb6e306a61f83
+613	833	7667065260133968	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+613	833	7667065260133968	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+613	833	7667065260133968	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+101	921	7667065252916746	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+922	1205	7667065261114541	esp-idf/main/libmain.a	344baa74d5982f59
+1205	16252	7667065414016931	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1205	16252	7667065414016931	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+16252	17572	7667065414419205	GPIO_Example.elf	477c8b02c37f65b8
+17574	18074	7667065432551156	.bin_timestamp	8ab2d32ed7fa9124
+17574	18074	7667065432551156	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18074	18255	7667065432646282	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18074	18255	7667065432646282	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+133	368	7667065442936398	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+133	368	7667065442936398	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+118	541	7667065442780461	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+118	541	7667065442780461	bootloader/bootloader.elf	60afb70ae559b595
+118	541	7667065442780461	bootloader/bootloader.bin	60afb70ae559b595
+118	541	7667065442780461	bootloader/bootloader.map	60afb70ae559b595
+118	541	7667065442780461	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+118	541	7667065442780461	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+118	541	7667065442780461	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+118	541	7667065442780461	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+541	664	7667065447028117	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+541	664	7667065447028117	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+664	889	7667065450396338	CMakeFiles/bootloader-complete	567fb6e306a61f83
+664	889	7667065450396338	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+664	889	7667065450396338	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+664	889	7667065450396338	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+889	4365	7667065450507297	CMakeFiles/flash	4586a78ab276b6e5
+889	4365	7667065450507297	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+104	456	7667067706386055	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+104	456	7667067706386055	bootloader/bootloader.elf	60afb70ae559b595
+104	456	7667067706386055	bootloader/bootloader.bin	60afb70ae559b595
+104	456	7667067706386055	bootloader/bootloader.map	60afb70ae559b595
+104	456	7667067706386055	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+104	456	7667067706386055	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+104	456	7667067706386055	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+104	456	7667067706386055	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+456	551	7667067709904300	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+456	551	7667067709904300	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+551	767	7667067712916203	CMakeFiles/bootloader-complete	567fb6e306a61f83
+551	767	7667067712916203	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+551	767	7667067712916203	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+551	767	7667067712916203	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+97	834	7667067706305984	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+834	1174	7667067713679501	esp-idf/main/libmain.a	344baa74d5982f59
+1174	16830	7667067873231375	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1174	16830	7667067873231375	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+16830	18264	7667067873645040	GPIO_Example.elf	477c8b02c37f65b8
+18264	18921	7667067894456214	.bin_timestamp	8ab2d32ed7fa9124
+18264	18921	7667067894456214	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18922	19158	7667067894561691	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18922	19158	7667067894561691	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+104	185	7667067902954966	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+185	461	7667067903769766	esp-idf/main/libmain.a	344baa74d5982f59
+114	492	7667067903051265	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+114	492	7667067903051265	bootloader/bootloader.elf	60afb70ae559b595
+114	492	7667067903051265	bootloader/bootloader.bin	60afb70ae559b595
+114	492	7667067903051265	bootloader/bootloader.map	60afb70ae559b595
+114	492	7667067903051265	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+114	492	7667067903051265	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+114	492	7667067903051265	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+114	492	7667067903051265	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+493	589	7667067906837567	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+493	589	7667067906837567	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+589	825	7667067910065573	CMakeFiles/bootloader-complete	567fb6e306a61f83
+589	825	7667067910065573	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+589	825	7667067910065573	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+589	825	7667067910065573	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+461	15663	7667068058130350	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+461	15663	7667068058130350	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15663	16897	7667068058541801	GPIO_Example.elf	477c8b02c37f65b8
+16898	17372	7667068075540325	.bin_timestamp	8ab2d32ed7fa9124
+16898	17372	7667068075540325	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17372	17549	7667068075625432	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17372	17549	7667068075625432	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17549	20978	7667068077404083	CMakeFiles/flash	4586a78ab276b6e5
+17549	20978	7667068077404083	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+141	548	7667069680975128	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+141	548	7667069680975128	bootloader/bootloader.elf	60afb70ae559b595
+141	548	7667069680975128	bootloader/bootloader.bin	60afb70ae559b595
+141	548	7667069680975128	bootloader/bootloader.map	60afb70ae559b595
+141	548	7667069680975128	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+141	548	7667069680975128	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+141	548	7667069680975128	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+141	548	7667069680975128	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+549	678	7667069685043823	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+549	678	7667069685043823	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+678	918	7667069688643427	CMakeFiles/bootloader-complete	567fb6e306a61f83
+678	918	7667069688643427	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+678	918	7667069688643427	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+678	918	7667069688643427	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+123	973	7667069680784583	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+973	1337	7667069689290347	esp-idf/main/libmain.a	344baa74d5982f59
+1337	18030	7667069859357512	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1337	18030	7667069859357512	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+18031	19326	7667069859864062	GPIO_Example.elf	477c8b02c37f65b8
+19326	19890	7667069878228717	.bin_timestamp	8ab2d32ed7fa9124
+19326	19890	7667069878228717	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+19891	20089	7667069878469555	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+19891	20089	7667069878469555	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+136	328	7667069888730532	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+136	328	7667069888730532	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+124	507	7667069888615345	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+124	507	7667069888615345	bootloader/bootloader.elf	60afb70ae559b595
+124	507	7667069888615345	bootloader/bootloader.bin	60afb70ae559b595
+124	507	7667069888615345	bootloader/bootloader.map	60afb70ae559b595
+124	507	7667069888615345	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+124	507	7667069888615345	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+124	507	7667069888615345	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+124	507	7667069888615345	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+507	609	7667069892440441	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+507	609	7667069892440441	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+609	842	7667069895697956	CMakeFiles/bootloader-complete	567fb6e306a61f83
+609	842	7667069895697956	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+609	842	7667069895697956	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+609	842	7667069895697956	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+843	4252	7667069895798071	CMakeFiles/flash	4586a78ab276b6e5
+843	4252	7667069895798071	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+127	592	7667071040465047	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+127	592	7667071040465047	bootloader/bootloader.elf	60afb70ae559b595
+127	592	7667071040465047	bootloader/bootloader.bin	60afb70ae559b595
+127	592	7667071040465047	bootloader/bootloader.map	60afb70ae559b595
+127	592	7667071040465047	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+127	592	7667071040465047	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+127	592	7667071040465047	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+127	592	7667071040465047	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+593	698	7667071045122006	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+593	698	7667071045122006	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+698	905	7667071048145400	CMakeFiles/bootloader-complete	567fb6e306a61f83
+698	905	7667071048145400	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+698	905	7667071048145400	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+698	905	7667071048145400	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+116	985	7667071040352425	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+985	1310	7667071049046191	esp-idf/main/libmain.a	344baa74d5982f59
+1310	16808	7667071206750583	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1310	16808	7667071206750583	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+16808	18064	7667071207279566	GPIO_Example.elf	477c8b02c37f65b8
+18064	18623	7667071225288047	.bin_timestamp	8ab2d32ed7fa9124
+18064	18623	7667071225288047	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18623	18834	7667071225428580	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18623	18834	7667071225428580	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+120	323	7667071234098067	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+120	323	7667071234098067	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+108	505	7667071233971759	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+108	505	7667071233971759	bootloader/bootloader.elf	60afb70ae559b595
+108	505	7667071233971759	bootloader/bootloader.bin	60afb70ae559b595
+108	505	7667071233971759	bootloader/bootloader.map	60afb70ae559b595
+108	505	7667071233971759	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+108	505	7667071233971759	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+108	505	7667071233971759	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+108	505	7667071233971759	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+506	633	7667071237953594	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+506	633	7667071237953594	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+633	866	7667071241479205	CMakeFiles/bootloader-complete	567fb6e306a61f83
+633	866	7667071241479205	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+633	866	7667071241479205	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+633	866	7667071241479205	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+866	4353	7667071241569526	CMakeFiles/flash	4586a78ab276b6e5
+866	4353	7667071241569526	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+146	495	7667072997228865	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+146	495	7667072997228865	bootloader/bootloader.elf	60afb70ae559b595
+146	495	7667072997228865	bootloader/bootloader.bin	60afb70ae559b595
+146	495	7667072997228865	bootloader/bootloader.map	60afb70ae559b595
+146	495	7667072997228865	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+146	495	7667072997228865	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+146	495	7667072997228865	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+146	495	7667072997228865	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+496	587	7667073000726545	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+496	587	7667073000726545	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+587	779	7667073003462411	CMakeFiles/bootloader-complete	567fb6e306a61f83
+587	779	7667073003462411	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+587	779	7667073003462411	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+587	779	7667073003462411	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+138	960	7667072997151406	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+961	1339	7667073005381161	esp-idf/main/libmain.a	344baa74d5982f59
+1340	15823	7667073153623672	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1340	15823	7667073153623672	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15823	17155	7667073154001680	GPIO_Example.elf	477c8b02c37f65b8
+17156	17790	7667073173530853	.bin_timestamp	8ab2d32ed7fa9124
+17156	17790	7667073173530853	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17790	18004	7667073173671374	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17790	18004	7667073173671374	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+133	322	7667073182366395	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+133	322	7667073182366395	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+118	493	7667073182208032	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+118	493	7667073182208032	bootloader/bootloader.elf	60afb70ae559b595
+118	493	7667073182208032	bootloader/bootloader.bin	60afb70ae559b595
+118	493	7667073182208032	bootloader/bootloader.map	60afb70ae559b595
+118	493	7667073182208032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+118	493	7667073182208032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+118	493	7667073182208032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+118	493	7667073182208032	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+493	589	7667073185962707	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+493	589	7667073185962707	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+590	802	7667073188932623	CMakeFiles/bootloader-complete	567fb6e306a61f83
+590	802	7667073188932623	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+590	802	7667073188932623	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+590	802	7667073188932623	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+802	4289	7667073189053483	CMakeFiles/flash	4586a78ab276b6e5
+802	4289	7667073189053483	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+106	452	7667074035092591	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	452	7667074035092591	bootloader/bootloader.elf	60afb70ae559b595
+106	452	7667074035092591	bootloader/bootloader.bin	60afb70ae559b595
+106	452	7667074035092591	bootloader/bootloader.map	60afb70ae559b595
+106	452	7667074035092591	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	452	7667074035092591	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+106	452	7667074035092591	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+106	452	7667074035092591	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+452	551	7667074038548211	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+452	551	7667074038548211	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+551	756	7667074041508641	CMakeFiles/bootloader-complete	567fb6e306a61f83
+551	756	7667074041508641	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+551	756	7667074041508641	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+551	756	7667074041508641	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+97	812	7667074034986310	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+813	1097	7667074042160512	esp-idf/main/libmain.a	344baa74d5982f59
+1097	15349	7667074187123105	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1097	15349	7667074187123105	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15349	16594	7667074187527779	GPIO_Example.elf	477c8b02c37f65b8
+16594	17129	7667074205215162	.bin_timestamp	8ab2d32ed7fa9124
+16594	17129	7667074205215162	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17129	17332	7667074205320771	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17129	17332	7667074205320771	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+150	340	7667074213935885	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+150	340	7667074213935885	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+138	491	7667074213814446	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+138	491	7667074213814446	bootloader/bootloader.elf	60afb70ae559b595
+138	491	7667074213814446	bootloader/bootloader.bin	60afb70ae559b595
+138	491	7667074213814446	bootloader/bootloader.map	60afb70ae559b595
+138	491	7667074213814446	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+138	491	7667074213814446	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+138	491	7667074213814446	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+138	491	7667074213814446	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+491	591	7667074217351140	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+491	591	7667074217351140	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+591	805	7667074220409870	CMakeFiles/bootloader-complete	567fb6e306a61f83
+591	805	7667074220409870	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+591	805	7667074220409870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+591	805	7667074220409870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+805	4361	7667074220499877	CMakeFiles/flash	4586a78ab276b6e5
+805	4361	7667074220499877	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+113	447	7667075817086235	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+113	447	7667075817086235	bootloader/bootloader.elf	60afb70ae559b595
+113	447	7667075817086235	bootloader/bootloader.bin	60afb70ae559b595
+113	447	7667075817086235	bootloader/bootloader.map	60afb70ae559b595
+113	447	7667075817086235	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+113	447	7667075817086235	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+113	447	7667075817086235	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+113	447	7667075817086235	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+447	537	7667075820428963	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+447	537	7667075820428963	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+537	743	7667075823311505	CMakeFiles/bootloader-complete	567fb6e306a61f83
+537	743	7667075823311505	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+537	743	7667075823311505	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+537	743	7667075823311505	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+114	513	7667076373867237	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+114	513	7667076373867237	bootloader/bootloader.elf	60afb70ae559b595
+114	513	7667076373867237	bootloader/bootloader.bin	60afb70ae559b595
+114	513	7667076373867237	bootloader/bootloader.map	60afb70ae559b595
+114	513	7667076373867237	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+114	513	7667076373867237	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+114	513	7667076373867237	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+114	513	7667076373867237	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+514	618	7667076377870073	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+514	618	7667076377870073	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+618	830	7667076380928602	CMakeFiles/bootloader-complete	567fb6e306a61f83
+618	830	7667076380928602	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+618	830	7667076380928602	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+618	830	7667076380928602	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+112	474	7667077560401753	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	474	7667077560401753	bootloader/bootloader.elf	60afb70ae559b595
+112	474	7667077560401753	bootloader/bootloader.bin	60afb70ae559b595
+112	474	7667077560401753	bootloader/bootloader.map	60afb70ae559b595
+112	474	7667077560401753	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	474	7667077560401753	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+112	474	7667077560401753	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+112	474	7667077560401753	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+474	573	7667077564019563	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+474	573	7667077564019563	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+573	783	7667077566988474	CMakeFiles/bootloader-complete	567fb6e306a61f83
+573	783	7667077566988474	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+573	783	7667077566988474	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+573	783	7667077566988474	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+97	825	7667077903257241	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+825	1104	7667077910543875	esp-idf/main/libmain.a	344baa74d5982f59
+107	5445	7667077903352771	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+107	5445	7667077903352771	bootloader/bootloader.elf	60afb70ae559b595
+107	5445	7667077903352771	bootloader/bootloader.bin	60afb70ae559b595
+107	5445	7667077903352771	bootloader/bootloader.map	60afb70ae559b595
+107	5445	7667077903352771	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+107	5445	7667077903352771	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+107	5445	7667077903352771	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+107	5445	7667077903352771	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+5445	5550	7667077956735826	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+5445	5550	7667077956735826	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+5550	5739	7667077959589827	CMakeFiles/bootloader-complete	567fb6e306a61f83
+5550	5739	7667077959589827	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+5550	5739	7667077959589827	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+5550	5739	7667077959589827	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+1104	15113	7667078053047813	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1104	15113	7667078053047813	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15113	16362	7667078053418846	GPIO_Example.elf	477c8b02c37f65b8
+16362	16863	7667078070836275	.bin_timestamp	8ab2d32ed7fa9124
+16362	16863	7667078070836275	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+16863	17051	7667078070921317	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+16863	17051	7667078070921317	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+116	323	7667078079014597	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+116	323	7667078079014597	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+103	484	7667078078885965	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+103	484	7667078078885965	bootloader/bootloader.elf	60afb70ae559b595
+103	484	7667078078885965	bootloader/bootloader.bin	60afb70ae559b595
+103	484	7667078078885965	bootloader/bootloader.map	60afb70ae559b595
+103	484	7667078078885965	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+103	484	7667078078885965	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+103	484	7667078078885965	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+103	484	7667078078885965	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+485	583	7667078082701672	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+485	583	7667078082701672	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+584	792	7667078085695188	CMakeFiles/bootloader-complete	567fb6e306a61f83
+584	792	7667078085695188	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+584	792	7667078085695188	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+584	792	7667078085695188	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+792	4245	7667078085778176	CMakeFiles/flash	4586a78ab276b6e5
+792	4245	7667078085778176	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+132	541	7667081507292038	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+132	541	7667081507292038	bootloader/bootloader.elf	60afb70ae559b595
+132	541	7667081507292038	bootloader/bootloader.bin	60afb70ae559b595
+132	541	7667081507292038	bootloader/bootloader.map	60afb70ae559b595
+132	541	7667081507292038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+132	541	7667081507292038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+132	541	7667081507292038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+132	541	7667081507292038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+541	653	7667081511382200	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+541	653	7667081511382200	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+653	871	7667081514583983	CMakeFiles/bootloader-complete	567fb6e306a61f83
+653	871	7667081514583983	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+653	871	7667081514583983	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+653	871	7667081514583983	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+123	940	7667081507208583	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+940	1277	7667081515378960	esp-idf/main/libmain.a	344baa74d5982f59
+1278	16800	7667081673546927	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1278	16800	7667081673546927	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+16800	18143	7667081673971858	GPIO_Example.elf	477c8b02c37f65b8
+18143	18709	7667081692878091	.bin_timestamp	8ab2d32ed7fa9124
+18143	18709	7667081692878091	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18710	18938	7667081693077020	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18710	18938	7667081693077020	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+139	344	7667081702763910	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+139	344	7667081702763910	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+124	506	7667081702608302	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+124	506	7667081702608302	bootloader/bootloader.elf	60afb70ae559b595
+124	506	7667081702608302	bootloader/bootloader.bin	60afb70ae559b595
+124	506	7667081702608302	bootloader/bootloader.map	60afb70ae559b595
+124	506	7667081702608302	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+124	506	7667081702608302	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+124	506	7667081702608302	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+124	506	7667081702608302	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+506	621	7667081706435975	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+506	621	7667081706435975	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+621	849	7667081709743870	CMakeFiles/bootloader-complete	567fb6e306a61f83
+621	849	7667081709743870	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+621	849	7667081709743870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+621	849	7667081709743870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+849	4398	7667081709864179	CMakeFiles/flash	4586a78ab276b6e5
+849	4398	7667081709864179	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+112	493	7667084148389310	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	493	7667084148389310	bootloader/bootloader.elf	60afb70ae559b595
+112	493	7667084148389310	bootloader/bootloader.bin	60afb70ae559b595
+112	493	7667084148389310	bootloader/bootloader.map	60afb70ae559b595
+112	493	7667084148389310	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	493	7667084148389310	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+112	493	7667084148389310	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+112	493	7667084148389310	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+493	593	7667084152207540	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+493	593	7667084152207540	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+593	802	7667084155195691	CMakeFiles/bootloader-complete	567fb6e306a61f83
+593	802	7667084155195691	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+593	802	7667084155195691	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+593	802	7667084155195691	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+103	866	7667084148297779	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+866	1167	7667084155934027	esp-idf/main/libmain.a	344baa74d5982f59
+1167	15752	7667084304426147	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1167	15752	7667084304426147	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15752	17104	7667084304787434	GPIO_Example.elf	477c8b02c37f65b8
+17105	17603	7667084323207582	.bin_timestamp	8ab2d32ed7fa9124
+17105	17603	7667084323207582	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17604	17806	7667084323307793	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17604	17806	7667084323307793	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+136	342	7667084332296705	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+136	342	7667084332296705	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+117	523	7667084332111292	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+117	523	7667084332111292	bootloader/bootloader.elf	60afb70ae559b595
+117	523	7667084332111292	bootloader/bootloader.bin	60afb70ae559b595
+117	523	7667084332111292	bootloader/bootloader.map	60afb70ae559b595
+117	523	7667084332111292	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+117	523	7667084332111292	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+117	523	7667084332111292	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+117	523	7667084332111292	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+523	630	7667084336168237	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+523	630	7667084336168237	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+630	842	7667084339250835	CMakeFiles/bootloader-complete	567fb6e306a61f83
+630	842	7667084339250835	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+630	842	7667084339250835	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+630	842	7667084339250835	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+842	4396	7667084339356335	CMakeFiles/flash	4586a78ab276b6e5
+842	4396	7667084339356335	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+123	488	7667086274736870	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+123	488	7667086274736870	bootloader/bootloader.elf	60afb70ae559b595
+123	488	7667086274736870	bootloader/bootloader.bin	60afb70ae559b595
+123	488	7667086274736870	bootloader/bootloader.map	60afb70ae559b595
+123	488	7667086274736870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+123	488	7667086274736870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+123	488	7667086274736870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+123	488	7667086274736870	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+488	594	7667086278390652	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+488	594	7667086278390652	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+594	795	7667086281359091	CMakeFiles/bootloader-complete	567fb6e306a61f83
+594	795	7667086281359091	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+594	795	7667086281359091	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+594	795	7667086281359091	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+113	858	7667086274641725	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+859	1133	7667086282091675	esp-idf/main/libmain.a	344baa74d5982f59
+1133	15340	7667086426548949	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1133	15340	7667086426548949	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15340	16580	7667086426918590	GPIO_Example.elf	477c8b02c37f65b8
+16581	17063	7667086444049402	.bin_timestamp	8ab2d32ed7fa9124
+16581	17063	7667086444049402	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17063	17255	7667086444134337	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17063	17255	7667086444134337	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+109	317	7667086452327621	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+109	317	7667086452327621	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+95	477	7667086452196347	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+95	477	7667086452196347	bootloader/bootloader.elf	60afb70ae559b595
+95	477	7667086452196347	bootloader/bootloader.bin	60afb70ae559b595
+95	477	7667086452196347	bootloader/bootloader.map	60afb70ae559b595
+95	477	7667086452196347	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+95	477	7667086452196347	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+95	477	7667086452196347	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+95	477	7667086452196347	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+477	596	7667086456009570	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+477	596	7667086456009570	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+596	805	7667086459185471	CMakeFiles/bootloader-complete	567fb6e306a61f83
+596	805	7667086459185471	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+596	805	7667086459185471	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+596	805	7667086459185471	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+805	4296	7667086459290781	CMakeFiles/flash	4586a78ab276b6e5
+805	4296	7667086459290781	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+117	489	7667090037500052	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+117	489	7667090037500052	bootloader/bootloader.elf	60afb70ae559b595
+117	489	7667090037500052	bootloader/bootloader.bin	60afb70ae559b595
+117	489	7667090037500052	bootloader/bootloader.map	60afb70ae559b595
+117	489	7667090037500052	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+117	489	7667090037500052	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+117	489	7667090037500052	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+117	489	7667090037500052	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+489	586	7667090041220856	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+489	586	7667090041220856	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+586	796	7667090044172626	CMakeFiles/bootloader-complete	567fb6e306a61f83
+586	796	7667090044172626	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+586	796	7667090044172626	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+586	796	7667090044172626	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+109	857	7667090037420260	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+858	1120	7667090044902911	esp-idf/main/libmain.a	344baa74d5982f59
+1120	15505	7667090190970071	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1120	15505	7667090190970071	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15505	16808	7667090191383553	GPIO_Example.elf	477c8b02c37f65b8
+16808	17281	7667090209045630	.bin_timestamp	8ab2d32ed7fa9124
+16808	17281	7667090209045630	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17281	17463	7667090209143086	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17281	17463	7667090209143086	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+124	327	7667090217414892	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+124	327	7667090217414892	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+111	492	7667090217284225	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+111	492	7667090217284225	bootloader/bootloader.elf	60afb70ae559b595
+111	492	7667090217284225	bootloader/bootloader.bin	60afb70ae559b595
+111	492	7667090217284225	bootloader/bootloader.map	60afb70ae559b595
+111	492	7667090217284225	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+111	492	7667090217284225	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+111	492	7667090217284225	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+111	492	7667090217284225	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+492	595	7667090221093939	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+492	595	7667090221093939	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+596	799	7667090224077205	CMakeFiles/bootloader-complete	567fb6e306a61f83
+596	799	7667090224077205	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+596	799	7667090224077205	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+596	799	7667090224077205	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+799	4254	7667090224162345	CMakeFiles/flash	4586a78ab276b6e5
+799	4254	7667090224162345	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+112	467	7667090596570260	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	467	7667090596570260	bootloader/bootloader.elf	60afb70ae559b595
+112	467	7667090596570260	bootloader/bootloader.bin	60afb70ae559b595
+112	467	7667090596570260	bootloader/bootloader.map	60afb70ae559b595
+112	467	7667090596570260	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+112	467	7667090596570260	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+112	467	7667090596570260	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+112	467	7667090596570260	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+467	574	7667090600112722	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+467	574	7667090600112722	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+574	780	7667090603141394	CMakeFiles/bootloader-complete	567fb6e306a61f83
+574	780	7667090603141394	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+574	780	7667090603141394	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+574	780	7667090603141394	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+104	815	7667090596480024	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+815	1097	7667090603586867	esp-idf/main/libmain.a	344baa74d5982f59
+1097	16723	7667090762195314	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1097	16723	7667090762195314	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+16723	17994	7667090762674444	GPIO_Example.elf	477c8b02c37f65b8
+17994	18489	7667090780228106	.bin_timestamp	8ab2d32ed7fa9124
+17994	18489	7667090780228106	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+18489	18723	7667090780323369	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+18489	18723	7667090780323369	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+122	346	7667090789357770	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+122	346	7667090789357770	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+106	528	7667090789200584	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	528	7667090789200584	bootloader/bootloader.elf	60afb70ae559b595
+106	528	7667090789200584	bootloader/bootloader.bin	60afb70ae559b595
+106	528	7667090789200584	bootloader/bootloader.map	60afb70ae559b595
+106	528	7667090789200584	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	528	7667090789200584	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+106	528	7667090789200584	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+106	528	7667090789200584	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+528	629	7667090793418951	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+528	629	7667090793418951	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+629	843	7667090796475784	CMakeFiles/bootloader-complete	567fb6e306a61f83
+629	843	7667090796475784	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+629	843	7667090796475784	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+629	843	7667090796475784	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+843	4357	7667090796570951	CMakeFiles/flash	4586a78ab276b6e5
+843	4357	7667090796570951	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+113	472	7667091876576245	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+113	472	7667091876576245	bootloader/bootloader.elf	60afb70ae559b595
+113	472	7667091876576245	bootloader/bootloader.bin	60afb70ae559b595
+113	472	7667091876576245	bootloader/bootloader.map	60afb70ae559b595
+113	472	7667091876576245	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+113	472	7667091876576245	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+113	472	7667091876576245	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+113	472	7667091876576245	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+473	575	7667091880169125	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+473	575	7667091880169125	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+575	772	7667091883077110	CMakeFiles/bootloader-complete	567fb6e306a61f83
+575	772	7667091883077110	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+575	772	7667091883077110	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+575	772	7667091883077110	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+102	816	7667091876471009	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+816	1114	7667091883603527	esp-idf/main/libmain.a	344baa74d5982f59
+1115	15131	7667092026410309	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1115	15131	7667092026410309	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15131	16359	7667092026755742	GPIO_Example.elf	477c8b02c37f65b8
+16359	16839	7667092043748567	.bin_timestamp	8ab2d32ed7fa9124
+16359	16839	7667092043748567	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+16840	17032	7667092043833801	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+16840	17032	7667092043833801	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+137	311	7667092052492739	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+137	311	7667092052492739	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+122	473	7667092052336155	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+122	473	7667092052336155	bootloader/bootloader.elf	60afb70ae559b595
+122	473	7667092052336155	bootloader/bootloader.bin	60afb70ae559b595
+122	473	7667092052336155	bootloader/bootloader.map	60afb70ae559b595
+122	473	7667092052336155	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+122	473	7667092052336155	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+122	473	7667092052336155	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+122	473	7667092052336155	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+474	567	7667092055857416	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+474	567	7667092055857416	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+567	768	7667092058723062	CMakeFiles/bootloader-complete	567fb6e306a61f83
+567	768	7667092058723062	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+567	768	7667092058723062	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+567	768	7667092058723062	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+768	4312	7667092058803065	CMakeFiles/flash	4586a78ab276b6e5
+768	4312	7667092058803065	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5
+106	472	7667092516639267	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	472	7667092516639267	bootloader/bootloader.elf	60afb70ae559b595
+106	472	7667092516639267	bootloader/bootloader.bin	60afb70ae559b595
+106	472	7667092516639267	bootloader/bootloader.map	60afb70ae559b595
+106	472	7667092516639267	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+106	472	7667092516639267	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+106	472	7667092516639267	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+106	472	7667092516639267	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+472	568	7667092520290376	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+472	568	7667092520290376	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+568	778	7667092523255038	CMakeFiles/bootloader-complete	567fb6e306a61f83
+568	778	7667092523255038	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+568	778	7667092523255038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+568	778	7667092523255038	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+97	824	7667092516544130	esp-idf/main/CMakeFiles/__idf_main.dir/Servo_Control.c.obj	616dd728c7aba927
+824	1112	7667092523816437	esp-idf/main/libmain.a	344baa74d5982f59
+1113	15509	7667092670273191	esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+1113	15509	7667092670273191	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esp_system/ld/sections.ld	dd72a76b02dd675f
+15509	16848	7667092670664017	GPIO_Example.elf	477c8b02c37f65b8
+16849	17360	7667092689083142	.bin_timestamp	8ab2d32ed7fa9124
+16849	17360	7667092689083142	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/.bin_timestamp	8ab2d32ed7fa9124
+17360	17576	7667092689177462	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+17360	17576	7667092689177462	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+118	313	7667092697597427	esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+118	313	7667092697597427	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/esptool_py/CMakeFiles/app_check_size	53c6c1d24df9cb5e
+100	485	7667092697419967	bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+100	485	7667092697419967	bootloader/bootloader.elf	60afb70ae559b595
+100	485	7667092697419967	bootloader/bootloader.bin	60afb70ae559b595
+100	485	7667092697419967	bootloader/bootloader.map	60afb70ae559b595
+100	485	7667092697419967	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	60afb70ae559b595
+100	485	7667092697419967	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.elf	60afb70ae559b595
+100	485	7667092697419967	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.bin	60afb70ae559b595
+100	485	7667092697419967	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader/bootloader.map	60afb70ae559b595
+485	582	7667092701273031	bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+485	582	7667092701273031	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	4550aee27201c7c2
+582	812	7667092704450464	CMakeFiles/bootloader-complete	567fb6e306a61f83
+582	812	7667092704450464	bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+582	812	7667092704450464	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete	567fb6e306a61f83
+582	812	7667092704450464	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	567fb6e306a61f83
+812	4329	7667092704545554	CMakeFiles/flash	4586a78ab276b6e5
+812	4329	7667092704545554	S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/flash	4586a78ab276b6e5

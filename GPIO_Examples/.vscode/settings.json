@@ -6,6 +6,9 @@
         "rtc_io.h": "c",
         "sdkconfig.h": "c",
         "esp_intr_alloc.h": "c",
-        "ledc_types.h": "c"
+        "ledc_types.h": "c",
+        "bitset": "c",
+        "set": "c",
+        "format": "c"
     }
 }

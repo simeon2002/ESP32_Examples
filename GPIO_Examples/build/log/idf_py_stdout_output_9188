@@ -1,0 +1,852 @@
+[0;32mI (100) esp_image: segment 2: paddr=0001e0f0 vaddr=40374000 sizeESP-ROM:esp32s3-20210327[0m
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378806
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (26) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (37) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b628h ( 46632) map[0m
+[0;32mI (97) esp_image: segment 1: paddr=0001b650 vaddr=3fc93500 size=02a98h ( 10904) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001e0f0 vaddr=40374000 size=01f28h (  7976) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1ab00h (109312) map[0m
+[0;32mI (130) esp_image: segment 4: paddr=0003ab28 vaddr=40375f28 size=0d4e4h ( 54500) load[0m
+[0;32mI (143) esp_image: segment 5: paddr=00048014 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (149) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (149) boot: Disabling RNG early entropy source...[0m
+[0;32mI (160) cpu_start: Multicore app[0m
+[0;32mI (169) cpu_start: Pro cpu start user code[0m
+[0;32mI (169) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (170) app_init: Application information:[0m
+[0;32mI (170) app_init: Project name:     GPIO_Example[0m
+[0;32mI (174) app_init: App version:      1[0m
+[0;32mI (177) app_init: Compile time:     Apr 18 2025 01:08:09[0m
+[0;32mI (182) app_init: ELF file SHA256:  c06f9cc21...[0m
+[0;32mI (187) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (191) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (195) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (199) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (202) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (209) heap_init: At 3FC969C8 len 00052D48 (331 KiB): RAM[0m
+[0;32mI (214) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (219) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (224) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (230) spi_flash: detected chip: gd[0m
+[0;32mI (233) spi_flash: flash io: dio[0m
+[0;33mW (236) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (248) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (254) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (261) main_task: Started on CPU0[0m
+[0;32mI (271) main_task: Calling app_main()[0m
+[0;32mI (271) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (271) gpio: GPIO[9]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (281) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (291) Servo motor: Waiting for door to open[0m
+[0;32mI (291) main_task: Returned from app_main()[0m
+[0;32mI (351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (3031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (3131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (40881) ISR: Button ISR triggered![0m
+
+[0;32mI (40891) Servo motor: Button press registered[0m
+[0;32mI (40891) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (41831) Servo motor: Waiting for door to close[0m
+[0;32mI (41831) Servo motor: No motion detected any longer.[0m
+[0;32mI (41831) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (41871) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41891) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41911) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41931) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41951) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41971) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (41991) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42051) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42111) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42151) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42191) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42231) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42251) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42291) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42331) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42871) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42891) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42911) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42931) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42951) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42971) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (42991) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43051) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43111) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43151) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43191) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43231) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43251) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43291) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43331) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43871) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43891) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43911) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43931) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43951) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43971) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (43991) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44051) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44111) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44151) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44191) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44231) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44251) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44291) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44331) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44871) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44871) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44891) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44891) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44911) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44911) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44931) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44931) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44951) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44951) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44971) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44971) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44991) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (44991) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45031) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45051) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45051) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45111) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45111) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45131) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45151) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45151) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45171) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45191) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45191) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45231) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45231) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45251) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45251) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45271) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45291) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45291) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45311) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45331) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45331) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45351) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45371) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45391) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45431) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45451) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45471) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45511) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45531) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45551) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45571) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45591) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45631) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45651) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45671) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45691) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45711) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45731) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45751) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45761) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45771) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45791) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45831) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (45851) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (64491) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (65181) ISR: Button ISR triggered![0m
+
+[0;32mI (65181) Servo motor: Button press registered[0m
+[0;32mI (65181) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (66131) Servo motor: Waiting for door to close[0m
+[0;32mI (66131) Servo motor: No motion detected any longer.[0m
+[0;32mI (66131) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (67091) Servo motor: Waiting for door to open[0m
+[0;32mI (67621) ISR: Button ISR triggered![0m
+
+[0;32mI (67631) Servo motor: Button press registered[0m
+[0;32mI (67631) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (68571) Servo motor: Waiting for door to close[0m
+[0;32mI (69661) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (69671) Servo motor: No motion detected any longer.[0m
+[0;32mI (69671) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (70611) Servo motor: Waiting for door to open[0m
+[0;32mI (80051) ISR: Button ISR triggered![0m
+
+[0;32mI (80051) Servo motor: Button press registered[0m
+[0;32mI (80051) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (80991) Servo motor: Waiting for door to close[0m
+[0;32mI (85301) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (85311) Servo motor: No motion detected any longer.[0m
+[0;32mI (85311) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (86251) Servo motor: Waiting for door to open[0m
+[0;32mI (89181) ISR: Button ISR triggered![0m
+
+[0;32mI (89191) Servo motor: Button press registered[0m
+[0;32mI (89191) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (89311) ISR: Button ISR triggered![0m
+
+[0;32mI (90131) Servo motor: Waiting for door to close[0m
+[0;32mI (95131) Servo motor: No motion detected any longer.[0m
+[0;32mI (95131) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (96071) Servo motor: Waiting for door to open[0m
+[0;32mI (96071) Servo motor: Button press registered[0m
+[0;32mI (96071) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (97031) Servo motor: Waiting for door to close[0m
+[0;32mI (102031) Servo motor: No motion detected any longer.[0m
+[0;32mI (102031) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (102971) Servo motor: Waiting for door to open[0m
+[0;32mI (113071) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (189961) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (274741) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (296101) ISR: Motion sensor ISR triggered![0m
+
