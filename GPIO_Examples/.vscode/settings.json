@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "clk_tree_defs.h": "c",
+        "gpio.h": "c",
+        "rtc_io.h": "c",
+        "sdkconfig.h": "c",
+        "esp_intr_alloc.h": "c",
+        "ledc_types.h": "c"
+    }
+}

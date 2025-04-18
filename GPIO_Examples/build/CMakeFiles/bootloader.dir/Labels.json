@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/CMakeFiles/bootloader-complete.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
