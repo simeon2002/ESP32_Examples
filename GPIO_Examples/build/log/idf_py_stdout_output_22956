@@ -1,0 +1,115 @@
+[0;32mI (100) esp_image: segment 2: paddr=0001e0d8 vaddr=40374000 sizeESP-ROM:esp32s3-20210327[0m
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378822
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (26) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (37) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b610h ( 46608) map[0m
+[0;32mI (97) esp_image: segment 1: paddr=0001b638 vaddr=3fc93500 size=02a98h ( 10904) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001e0d8 vaddr=40374000 size=01f40h (  8000) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1ab00h (109312) map[0m
+[0;32mI (130) esp_image: segment 4: paddr=0003ab28 vaddr=40375f40 size=0d538h ( 54584) load[0m
+[0;32mI (143) esp_image: segment 5: paddr=00048068 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (149) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (149) boot: Disabling RNG early entropy source...[0m
+[0;32mI (160) cpu_start: Multicore app[0m
+[0;32mI (169) cpu_start: Pro cpu start user code[0m
+[0;32mI (169) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (170) app_init: Application information:[0m
+[0;32mI (170) app_init: Project name:     GPIO_Example[0m
+[0;32mI (174) app_init: App version:      1[0m
+[0;32mI (177) app_init: Compile time:     Apr 18 2025 01:08:09[0m
+[0;32mI (182) app_init: ELF file SHA256:  a299cdd93...[0m
+[0;32mI (187) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (191) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (195) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (199) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (202) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (209) heap_init: At 3FC969C8 len 00052D48 (331 KiB): RAM[0m
+[0;32mI (214) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (219) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (224) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (230) spi_flash: detected chip: gd[0m
+[0;32mI (233) spi_flash: flash io: dio[0m
+[0;33mW (236) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (248) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (254) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (261) main_task: Started on CPU0[0m
+[0;32mI (271) main_task: Calling app_main()[0m
+[0;32mI (271) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (271) gpio: GPIO[9]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (281) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (291) Servo motor: Waiting for door to open[0m
+[0;32mI (291) main_task: Returned from app_main()[0m
+[0;32mI (848811) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1045921) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1198091) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1297611) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1309721) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1343041) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (1355411) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (2246201) ISR: Button ISR triggered![0m
+
+[0;32mI (2246201) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (2249151) Servo motor: Waiting for door to close[0m
+[0;32mI (2249151) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (2250111) Servo motor: Waiting for door to open[0m
+[0;32mI (2253321) ISR: Button ISR triggered![0m
+
+[0;32mI (2253321) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (2256271) Servo motor: Waiting for door to close[0m
+[0;32mI (2267641) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (2267641) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (2268591) Servo motor: Waiting for door to open[0m
+[0;32mI (2272121) ISR: Button ISR triggered![0m
+
+[0;32mI (2272131) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (2275071) Servo motor: Waiting for door to close[0m
+[0;32mI (3956211) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (3956221) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (3957171) Servo motor: Waiting for door to open[0m
+[0;32mI (3972751) ISR: Button ISR triggered![0m
+
+[0;32mI (3972751) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (3975691) Servo motor: Waiting for door to close[0m
+[0;32mI (4292501) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (4292501) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (4293451) Servo motor: Waiting for door to open[0m
+[0;32mI (4409281) ISR: Button ISR triggered![0m
+
+[0;32mI (4409291) Servo motor: Duty cycle value 116 for angle 180.00, pulse width ~2.27 ms[0m
+[0;32mI (4412231) Servo motor: Waiting for door to close[0m
+[0;32mI (6329011) ISR: Motion sensor ISR triggered![0m
+
+[0;32mI (6329021) Servo motor: Duty cycle value 25 for angle 0.00, pulse width ~0.49 ms[0m
+[0;32mI (6329971) Servo motor: Waiting for door to open[0m

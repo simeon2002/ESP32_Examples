@@ -1,2 +1,2 @@
-idf_component_register(SRCS "Servo_Control.c"
+idf_component_register(SRCS "Temperature_Module.c"
                     INCLUDE_DIRS ".")

@@ -1,0 +1,175 @@
+[0;32mI (100) esp_image: segment 2: paddr=0001e9b4 vaddr=40374000 sizeESP-ROM:esp32s3-20210327[0m
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378646
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (26) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (37) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0bea4h ( 48804) map[0m
+[0;32mI (97) esp_image: segment 1: paddr=0001becc vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001e9b4 vaddr=40374000 size=01664h (  5732) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1bbc0h (113600) map[0m
+[0;32mI (131) esp_image: segment 4: paddr=0003bbe8 vaddr=40375664 size=0dff8h ( 57336) load[0m
+[0;32mI (144) esp_image: segment 5: paddr=00049be8 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (150) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (150) boot: Disabling RNG early entropy source...[0m
+[0;32mI (162) cpu_start: Multicore app[0m
+[0;32mI (171) cpu_start: Pro cpu start user code[0m
+[0;32mI (171) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (171) app_init: Application information:[0m
+[0;32mI (171) app_init: Project name:     GPIO_Example[0m
+[0;32mI (175) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (180) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (185) app_init: ELF file SHA256:  bbb7a0b0b...[0m
+[0;32mI (189) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (193) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (197) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (201) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (205) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (211) heap_init: At 3FC96AD8 len 00052C38 (331 KiB): RAM[0m
+[0;32mI (216) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (221) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (233) spi_flash: detected chip: gd[0m
+[0;32mI (235) spi_flash: flash io: dio[0m
+[0;33mW (238) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (251) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (257) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (274) main_task: Calling app_main()[0m
+[0;32mI (274) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (384) TASK: return length is 256 bytes[0m
+[0;32mI (384) Temperature Sensor: Unit: 0, Channel: 1, Value: 651, Temperature: 5730.350586[0m
+[0;32mI (1384) Temperature Sensor: Unit: 0, Channel: 1, Value: 267, Temperature: 2210.350098[0m
+[0;32mI (2384) Temperature Sensor: Unit: 0, Channel: 1, Value: 402, Temperature: 3447.850342[0m
+[0;32mI (3384) Temperature Sensor: Unit: 0, Channel: 1, Value: 396, Temperature: 3392.850098[0m
+[0;32mI (4384) Temperature Sensor: Unit: 0, Channel: 1, Value: 459, Temperature: 3970.350098[0m
+[0;32mI (5384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1035, Temperature: 9250.349609[0m
+[0;32mI (6384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1389, Temperature: 12495.349609[0m
+[0;32mI (7384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1543, Temperature: 13907.016602[0m
+[0;32mI (8384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1197, Temperature: 10735.350586[0m
+[0;32mI (9384) Temperature Sensor: Unit: 0, Channel: 1, Value: 909, Temperature: 8095.350098[0m
+[0;32mI (10384) Temperature Sensor: Unit: 0, Channel: 1, Value: 645, Temperature: 5675.350098[0m
+[0;32mI (11384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (12384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (13384) Temperature Sensor: Unit: 0, Channel: 1, Value: 19, Temperature: -62.983322[0m
+[0;32mI (14384) Temperature Sensor: Unit: 0, Channel: 1, Value: 189, Temperature: 1495.350098[0m
+[0;32mI (15384) Temperature Sensor: Unit: 0, Channel: 1, Value: 297, Temperature: 2485.350098[0m
+[0;32mI (16384) Temperature Sensor: Unit: 0, Channel: 1, Value: 365, Temperature: 3108.683350[0m
+[0;32mI (17384) Temperature Sensor: Unit: 0, Channel: 1, Value: 842, Temperature: 7481.183594[0m
+[0;32mI (18384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1213, Temperature: 10882.016602[0m
+[0;32mI (19384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1494, Temperature: 13457.849609[0m
+[0;32mI (20384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1209, Temperature: 10845.349609[0m
+[0;32mI (21384) Temperature Sensor: Unit: 0, Channel: 1, Value: 901, Temperature: 8022.017090[0m
+[0;32mI (22384) Temperature Sensor: Unit: 0, Channel: 1, Value: 651, Temperature: 5730.350586[0m
+[0;32mI (23384) Temperature Sensor: Unit: 0, Channel: 1, Value: 61, Temperature: 322.016693[0m
+[0;32mI (24384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (25384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (26384) Temperature Sensor: Unit: 0, Channel: 1, Value: 125, Temperature: 908.683228[0m
+[0;32mI (27384) Temperature Sensor: Unit: 0, Channel: 1, Value: 289, Temperature: 2412.016846[0m
+[0;32mI (28384) Temperature Sensor: Unit: 0, Channel: 1, Value: 325, Temperature: 2742.016602[0m
+[0;32mI (29384) Temperature Sensor: Unit: 0, Channel: 1, Value: 703, Temperature: 6207.016602[0m
+[0;32mI (30384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1113, Temperature: 9965.349609[0m
+[0;32mI (31384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1495, Temperature: 13467.016602[0m
+[0;32mI (32384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1290, Temperature: 11587.849609[0m
+[0;32mI (33384) Temperature Sensor: Unit: 0, Channel: 1, Value: 941, Temperature: 8388.682617[0m
+[0;32mI (34384) Temperature Sensor: Unit: 0, Channel: 1, Value: 701, Temperature: 6188.684082[0m
+[0;32mI (35384) Temperature Sensor: Unit: 0, Channel: 1, Value: 222, Temperature: 1797.849976[0m
+[0;32mI (36384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (37384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (38384) Temperature Sensor: Unit: 0, Channel: 1, Value: 93, Temperature: 615.350098[0m
+[0;32mI (39384) Temperature Sensor: Unit: 0, Channel: 1, Value: 275, Temperature: 2283.683594[0m
+[0;32mI (40384) Temperature Sensor: Unit: 0, Channel: 1, Value: 309, Temperature: 2595.350098[0m
+[0;32mI (41384) Temperature Sensor: Unit: 0, Channel: 1, Value: 499, Temperature: 4337.017090[0m
+[0;32mI (42384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1080, Temperature: 9662.849609[0m
+[0;32mI (43384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1449, Temperature: 13045.349609[0m
+[0;32mI (44384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1338, Temperature: 12027.849609[0m
+[0;32mI (45384) Temperature Sensor: Unit: 0, Channel: 1, Value: 991, Temperature: 8847.016602[0m
+[0;32mI (46384) Temperature Sensor: Unit: 0, Channel: 1, Value: 751, Temperature: 6647.016602[0m
+[0;32mI (47384) Temperature Sensor: Unit: 0, Channel: 1, Value: 445, Temperature: 3842.016846[0m
+[0;32mI (48384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (49384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (50384) Temperature Sensor: Unit: 0, Channel: 1, Value: 61, Temperature: 322.016693[0m
+[0;32mI (51384) Temperature Sensor: Unit: 0, Channel: 1, Value: 251, Temperature: 2063.683350[0m
+[0;32mI (52384) Temperature Sensor: Unit: 0, Channel: 1, Value: 303, Temperature: 2540.350342[0m
+[0;32mI (53384) Temperature Sensor: Unit: 0, Channel: 1, Value: 399, Temperature: 3420.350098[0m
+[0;32mI (54384) Temperature Sensor: Unit: 0, Channel: 1, Value: 974, Temperature: 8691.182617[0m
+[0;32mI (55384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1351, Temperature: 12147.016602[0m
+[0;32mI (56384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1423, Temperature: 12807.016602[0m
+[0;32mI (57384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1065, Temperature: 9525.349609[0m
+[0;32mI (58384) Temperature Sensor: Unit: 0, Channel: 1, Value: 809, Temperature: 7178.683594[0m
+[0;32mI (59384) Temperature Sensor: Unit: 0, Channel: 1, Value: 535, Temperature: 4667.017090[0m
+[0;32mI (60384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (61384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (62384) Temperature Sensor: Unit: 0, Channel: 1, Value: 21, Temperature: -44.649994[0m
+[0;32mI (63384) Temperature Sensor: Unit: 0, Channel: 1, Value: 188, Temperature: 1486.183350[0m
+[0;32mI (64384) TASK: return length is 256 bytes[0m
+[0;32mI (64384) Temperature Sensor: Unit: 0, Channel: 1, Value: 651, Temperature: 5730.350586[0m
+[0;32mI (65384) Temperature Sensor: Unit: 0, Channel: 1, Value: 267, Temperature: 2210.350098[0m
+[0;32mI (66384) Temperature Sensor: Unit: 0, Channel: 1, Value: 402, Temperature: 3447.850342[0m
+[0;32mI (67384) Temperature Sensor: Unit: 0, Channel: 1, Value: 396, Temperature: 3392.850098[0m
+[0;32mI (68384) Temperature Sensor: Unit: 0, Channel: 1, Value: 459, Temperature: 3970.350098[0m
+[0;32mI (69384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1035, Temperature: 9250.349609[0m
+[0;32mI (70384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1389, Temperature: 12495.349609[0m
+[0;32mI (71384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1543, Temperature: 13907.016602[0m
+[0;32mI (72384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1197, Temperature: 10735.350586[0m
+[0;32mI (73384) Temperature Sensor: Unit: 0, Channel: 1, Value: 909, Temperature: 8095.350098[0m
+[0;32mI (74384) Temperature Sensor: Unit: 0, Channel: 1, Value: 645, Temperature: 5675.350098[0m
+[0;32mI (75384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (76384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (77384) Temperature Sensor: Unit: 0, Channel: 1, Value: 19, Temperature: -62.983322[0m
+[0;32mI (78384) Temperature Sensor: Unit: 0, Channel: 1, Value: 189, Temperature: 1495.350098[0m
+[0;32mI (79384) Temperature Sensor: Unit: 0, Channel: 1, Value: 297, Temperature: 2485.350098[0m
+[0;32mI (80384) Temperature Sensor: Unit: 0, Channel: 1, Value: 365, Temperature: 3108.683350[0m
+[0;32mI (81384) Temperature Sensor: Unit: 0, Channel: 1, Value: 842, Temperature: 7481.183594[0m
+[0;32mI (82384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1213, Temperature: 10882.016602[0m
+[0;32mI (83384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1494, Temperature: 13457.849609[0m
+[0;32mI (84384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1209, Temperature: 10845.349609[0m
+[0;32mI (85384) Temperature Sensor: Unit: 0, Channel: 1, Value: 901, Temperature: 8022.017090[0m
+[0;32mI (86384) Temperature Sensor: Unit: 0, Channel: 1, Value: 651, Temperature: 5730.350586[0m
+[0;32mI (87384) Temperature Sensor: Unit: 0, Channel: 1, Value: 61, Temperature: 322.016693[0m
+[0;32mI (88384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (89384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (90384) Temperature Sensor: Unit: 0, Channel: 1, Value: 125, Temperature: 908.683228[0m
+[0;32mI (91384) Temperature Sensor: Unit: 0, Channel: 1, Value: 289, Temperature: 2412.016846[0m
+[0;32mI (92384) Temperature Sensor: Unit: 0, Channel: 1, Value: 325, Temperature: 2742.016602[0m
+[0;32mI (93384) Temperature Sensor: Unit: 0, Channel: 1, Value: 703, Temperature: 6207.016602[0m
+[0;32mI (94384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1113, Temperature: 9965.349609[0m
+[0;32mI (95384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1495, Temperature: 13467.016602[0m
+[0;32mI (96384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1290, Temperature: 11587.849609[0m
+[0;32mI (97384) Temperature Sensor: Unit: 0, Channel: 1, Value: 941, Temperature: 8388.682617[0m
+[0;32mI (98384) Temperature Sensor: Unit: 0, Channel: 1, Value: 701, Temperature: 6188.684082[0m
+[0;32mI (99384) Temperature Sensor: Unit: 0, Channel: 1, Value: 222, Temperature: 1797.849976[0m
+[0;32mI (100384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (101384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (102384) Temperature Sensor: Unit: 0, Channel: 1, Value: 93, Temperature: 615.350098[0m
+[0;32mI (103384) Temperature Sensor: Unit: 0, Channel: 1, Value: 275, Temperature: 2283.683594[0m
+[0;32mI (104384) Temperature Sensor: Unit: 0, Channel: 1, Value: 309, Temperature: 2595.350098[0m
+[0;32mI (105384) Temperature Sensor: Unit: 0, Channel: 1, Value: 499, Temperature: 4337.017090[0m
+[0;32mI (106384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1080, Temperature: 9662.849609[0m
+[0;32mI (107384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1449, Temperature: 13045.349609[0m
+[0;32mI (108384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1338, Temperature: 12027.849609[0m
+[0;32mI (109384) Temperature Sensor: Unit: 0, Channel: 1, Value: 991, Temperature: 8847.016602[0m
+[0;32mI (110384) Temperature Sensor: Unit: 0, Channel: 1, Value: 751, Temperature: 6647.016602[0m
+[0;32mI (111384) Temperature Sensor: Unit: 0, Channel: 1, Value: 445, Temperature: 3842.016846[0m
+[0;32mI (112384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m
+[0;32mI (113384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Temperature: -237.149994[0m

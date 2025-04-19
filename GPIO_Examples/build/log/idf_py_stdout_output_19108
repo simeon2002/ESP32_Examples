@@ -1,0 +1,292 @@
+[0/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.4\components\esptool_py && C:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.4 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;-m;esp_idf_monitor -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/GPIO_Example.elf" -D "WORKING_DIRECTORY=S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build" -P run_serial_tool.cmake"
+I (100) esp_image: segment 2: paddr=0001eab4 vaddr=40374000 sizeESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2a (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378646
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+I (26) boot: ESP-IDF v5.4-dirty 2nd stage bootloader
+I (27) boot: compile time Apr 18 2025 01:13:45
+I (27) boot: Multicore bootloader
+I (27) boot: chip revision: v0.2
+I (30) boot: efuse block revision: v1.3
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (38) boot.esp32s3: SPI Mode       : DIO
+I (41) boot.esp32s3: SPI Flash Size : 2MB
+I (45) boot: Enabling RNG early entropy source...
+I (50) boot: Partition Table:
+I (52) boot: ## Label            Usage          Type ST Offset   Length
+I (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+I (78) boot: End of partition table
+I (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0bfa4h ( 49060) map
+I (97) esp_image: segment 1: paddr=0001bfcc vaddr=3fc93700 size=02ae0h ( 10976) load
+I (100) esp_image: segment 2: paddr=0001eab4 vaddr=40374000 size=01564h (  5476) load
+I (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1bc94h (113812) map
+I (131) esp_image: segment 4: paddr=0003bcbc vaddr=40375564 size=0e0f8h ( 57592) load
+I (144) esp_image: segment 5: paddr=00049dbc vaddr=600fe100 size=0001ch (    28) load
+I (151) boot: Loaded app from partition at offset 0x10000
+I (151) boot: Disabling RNG early entropy source...
+I (162) cpu_start: Multicore app
+I (171) cpu_start: Pro cpu start user code
+I (171) cpu_start: cpu freq: 160000000 Hz
+I (171) app_init: Application information:
+I (171) app_init: Project name:     GPIO_Example
+I (175) app_init: App version:      ce7ed68-dirty
+I (180) app_init: Compile time:     Apr 19 2025 02:27:40
+I (185) app_init: ELF file SHA256:  c524b5f74...
+I (189) app_init: ESP-IDF:          v5.4-dirty
+I (193) efuse_init: Min chip rev:     v0.0
+I (197) efuse_init: Max chip rev:     v0.99 
+I (201) efuse_init: Chip rev:         v0.2
+I (205) heap_init: Initializing. RAM available for dynamic allocation:
+I (211) heap_init: At 3FC96AD8 len 00052C38 (331 KiB): RAM
+I (216) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (233) spi_flash: detected chip: gd
+I (235) spi_flash: flash io: dio
+W (238) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (251) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (257) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (264) main_task: Started on CPU0
+I (274) main_task: Calling app_main()
+I (274) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (384) ADC: Channel is on GPIO 2
+I (384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3414, Voltage: 2.751 V, Temperature: -273.12 C
+I (1384) ADC: Channel is on GPIO 2
+I (1384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (2384) ADC: Channel is on GPIO 2
+I (2384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (3384) ADC: Channel is on GPIO 2
+I (3384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (4384) ADC: Channel is on GPIO 2
+I (4384) Temperature Sensor: Unit: 0, Channel: 1, Value: 243, Voltage: 0.196 V, Temperature: -273.15 C
+I (5384) ADC: Channel is on GPIO 2
+I (5384) Temperature Sensor: Unit: 0, Channel: 1, Value: 539, Voltage: 0.434 V, Temperature: -273.15 C
+I (6384) ADC: Channel is on GPIO 2
+I (6384) Temperature Sensor: Unit: 0, Channel: 1, Value: 713, Voltage: 0.575 V, Temperature: -273.14 C
+I (7384) ADC: Channel is on GPIO 2
+I (7384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (8384) ADC: Channel is on GPIO 2
+I (8384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (9384) ADC: Channel is on GPIO 2
+I (9384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (10384) ADC: Channel is on GPIO 2
+I (10384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (11384) ADC: Channel is on GPIO 2
+I (11384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3556, Voltage: 2.866 V, Temperature: -273.12 C
+I (12384) ADC: Channel is on GPIO 2
+I (12384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3333, Voltage: 2.686 V, Temperature: -273.12 C
+I (13384) ADC: Channel is on GPIO 2
+I (13384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (14384) ADC: Channel is on GPIO 2
+I (14384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (15384) ADC: Channel is on GPIO 2
+I (15384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (16384) ADC: Channel is on GPIO 2
+I (16384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (17384) ADC: Channel is on GPIO 2
+I (17384) Temperature Sensor: Unit: 0, Channel: 1, Value: 521, Voltage: 0.420 V, Temperature: -273.15 C
+I (18384) ADC: Channel is on GPIO 2
+I (18384) Temperature Sensor: Unit: 0, Channel: 1, Value: 718, Voltage: 0.579 V, Temperature: -273.14 C
+I (19384) ADC: Channel is on GPIO 2
+I (19384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (20384) ADC: Channel is on GPIO 2
+I (20384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (21384) ADC: Channel is on GPIO 2
+I (21384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (22384) ADC: Channel is on GPIO 2
+I (22384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4064, Voltage: 3.275 V, Temperature: -273.12 C
+I (23384) ADC: Channel is on GPIO 2
+I (23384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3503, Voltage: 2.823 V, Temperature: -273.12 C
+I (24384) ADC: Channel is on GPIO 2
+I (24384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3309, Voltage: 2.667 V, Temperature: -273.12 C
+I (25384) ADC: Channel is on GPIO 2
+I (25384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1407, Voltage: 1.134 V, Temperature: -273.14 C
+I (26384) ADC: Channel is on GPIO 2
+I (26384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (27384) ADC: Channel is on GPIO 2
+I (27384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (28384) ADC: Channel is on GPIO 2
+I (28384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (29384) ADC: Channel is on GPIO 2
+I (29384) Temperature Sensor: Unit: 0, Channel: 1, Value: 530, Voltage: 0.427 V, Temperature: -273.15 C
+I (30384) ADC: Channel is on GPIO 2
+I (30384) Temperature Sensor: Unit: 0, Channel: 1, Value: 853, Voltage: 0.687 V, Temperature: -273.14 C
+I (31384) ADC: Channel is on GPIO 2
+I (31384) Temperature Sensor: Unit: 0, Channel: 1, Value: 1271, Voltage: 1.024 V, Temperature: -273.14 C
+I (32384) ADC: Channel is on GPIO 2
+I (32384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (33384) ADC: Channel is on GPIO 2
+I (33384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (34384) ADC: Channel is on GPIO 2
+I (34384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (35384) ADC: Channel is on GPIO 2
+I (35384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3642, Voltage: 2.935 V, Temperature: -273.12 C
+I (36384) ADC: Channel is on GPIO 2
+I (36384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3413, Voltage: 2.750 V, Temperature: -273.12 C
+I (37384) ADC: Channel is on GPIO 2
+I (37384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3085, Voltage: 2.486 V, Temperature: -273.13 C
+I (38384) ADC: Channel is on GPIO 2
+I (38384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (39384) ADC: Channel is on GPIO 2
+I (39384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (40384) ADC: Channel is on GPIO 2
+I (40384) Temperature Sensor: Unit: 0, Channel: 1, Value: 199, Voltage: 0.160 V, Temperature: -273.15 C
+I (41384) ADC: Channel is on GPIO 2
+I (41384) Temperature Sensor: Unit: 0, Channel: 1, Value: 520, Voltage: 0.419 V, Temperature: -273.15 C
+I (42384) ADC: Channel is on GPIO 2
+I (42384) Temperature Sensor: Unit: 0, Channel: 1, Value: 683, Voltage: 0.550 V, Temperature: -273.14 C
+I (43384) ADC: Channel is on GPIO 2
+I (43384) Temperature Sensor: Unit: 0, Channel: 1, Value: 996, Voltage: 0.803 V, Temperature: -273.14 C
+I (44384) ADC: Channel is on GPIO 2
+I (44384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (45384) ADC: Channel is on GPIO 2
+I (45384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (46384) ADC: Channel is on GPIO 2
+I (46384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (47384) ADC: Channel is on GPIO 2
+I (47384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3788, Voltage: 3.053 V, Temperature: -273.12 C
+I (48384) ADC: Channel is on GPIO 2
+I (48384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3445, Voltage: 2.776 V, Temperature: -273.12 C
+I (49384) ADC: Channel is on GPIO 2
+I (49384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3167, Voltage: 2.552 V, Temperature: -273.12 C
+I (50384) ADC: Channel is on GPIO 2
+I (50384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (51384) ADC: Channel is on GPIO 2
+I (51384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (52384) ADC: Channel is on GPIO 2
+I (52384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (53384) ADC: Channel is on GPIO 2
+I (53384) Temperature Sensor: Unit: 0, Channel: 1, Value: 281, Voltage: 0.226 V, Temperature: -273.15 C
+I (54384) ADC: Channel is on GPIO 2
+I (54384) Temperature Sensor: Unit: 0, Channel: 1, Value: 548, Voltage: 0.442 V, Temperature: -273.15 C
+I (55384) ADC: Channel is on GPIO 2
+I (55384) Temperature Sensor: Unit: 0, Channel: 1, Value: 729, Voltage: 0.587 V, Temperature: -273.14 C
+I (56384) ADC: Channel is on GPIO 2
+I (56384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (57384) ADC: Channel is on GPIO 2
+I (57384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (58384) ADC: Channel is on GPIO 2
+I (58384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (59384) ADC: Channel is on GPIO 2
+I (59384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4044, Voltage: 3.259 V, Temperature: -273.12 C
+I (60384) ADC: Channel is on GPIO 2
+I (60384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3516, Voltage: 2.833 V, Temperature: -273.12 C
+I (61384) ADC: Channel is on GPIO 2
+I (61384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3243, Voltage: 2.613 V, Temperature: -273.12 C
+I (62384) ADC: Channel is on GPIO 2
+I (62384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (63384) ADC: Channel is on GPIO 2
+I (63384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (64384) ADC: Channel is on GPIO 2
+I (64384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (65384) ADC: Channel is on GPIO 2
+I (65384) Temperature Sensor: Unit: 0, Channel: 1, Value: 121, Voltage: 0.098 V, Temperature: -273.15 C
+I (66384) ADC: Channel is on GPIO 2
+I (66384) Temperature Sensor: Unit: 0, Channel: 1, Value: 455, Voltage: 0.367 V, Temperature: -273.15 C
+I (67384) ADC: Channel is on GPIO 2
+I (67384) Temperature Sensor: Unit: 0, Channel: 1, Value: 699, Voltage: 0.563 V, Temperature: -273.14 C
+I (68384) ADC: Channel is on GPIO 2
+I (68384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (69384) ADC: Channel is on GPIO 2
+I (69384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (70384) ADC: Channel is on GPIO 2
+I (70384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (71384) ADC: Channel is on GPIO 2
+I (71384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (72384) ADC: Channel is on GPIO 2
+I (72384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3503, Voltage: 2.823 V, Temperature: -273.12 C
+I (73384) ADC: Channel is on GPIO 2
+I (73384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3325, Voltage: 2.679 V, Temperature: -273.12 C
+I (74384) ADC: Channel is on GPIO 2
+I (74384) Temperature Sensor: Unit: 0, Channel: 1, Value: 246, Voltage: 0.198 V, Temperature: -273.15 C
+I (75384) ADC: Channel is on GPIO 2
+I (75384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (76384) ADC: Channel is on GPIO 2
+I (76384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (77384) ADC: Channel is on GPIO 2
+I (77384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (78384) ADC: Channel is on GPIO 2
+I (78384) Temperature Sensor: Unit: 0, Channel: 1, Value: 507, Voltage: 0.409 V, Temperature: -273.15 C
+I (79384) ADC: Channel is on GPIO 2
+I (79384) Temperature Sensor: Unit: 0, Channel: 1, Value: 670, Voltage: 0.540 V, Temperature: -273.14 C
+I (80384) ADC: Channel is on GPIO 2
+I (80384) Temperature Sensor: Unit: 0, Channel: 1, Value: 2677, Voltage: 2.157 V, Temperature: -273.13 C
+I (81384) ADC: Channel is on GPIO 2
+I (81384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (82384) ADC: Channel is on GPIO 2
+I (82384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (83384) ADC: Channel is on GPIO 2
+I (83384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (84384) ADC: Channel is on GPIO 2
+I (84384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3629, Voltage: 2.924 V, Temperature: -273.12 C
+I (85384) ADC: Channel is on GPIO 2
+I (85384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3370, Voltage: 2.716 V, Temperature: -273.12 C
+I (86384) ADC: Channel is on GPIO 2
+I (86384) Temperature Sensor: Unit: 0, Channel: 1, Value: 2723, Voltage: 2.194 V, Temperature: -273.13 C
+I (87384) ADC: Channel is on GPIO 2
+I (87384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (88384) ADC: Channel is on GPIO 2
+I (88384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (89384) ADC: Channel is on GPIO 2
+I (89384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (90384) ADC: Channel is on GPIO 2
+I (90384) Temperature Sensor: Unit: 0, Channel: 1, Value: 407, Voltage: 0.328 V, Temperature: -273.15 C
+I (91384) ADC: Channel is on GPIO 2
+I (91384) Temperature Sensor: Unit: 0, Channel: 1, Value: 694, Voltage: 0.559 V, Temperature: -273.14 C
+I (92384) ADC: Channel is on GPIO 2
+I (92384) Temperature Sensor: Unit: 0, Channel: 1, Value: 951, Voltage: 0.766 V, Temperature: -273.14 C
+I (93384) ADC: Channel is on GPIO 2
+I (93384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (94384) ADC: Channel is on GPIO 2
+I (94384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (95384) ADC: Channel is on GPIO 2
+I (95384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (96384) ADC: Channel is on GPIO 2
+I (96384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3756, Voltage: 3.027 V, Temperature: -273.12 C
+I (97384) ADC: Channel is on GPIO 2
+I (97384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3533, Voltage: 2.847 V, Temperature: -273.12 C
+I (98384) ADC: Channel is on GPIO 2
+I (98384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3133, Voltage: 2.525 V, Temperature: -273.12 C
+I (99384) ADC: Channel is on GPIO 2
+I (99384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (100384) ADC: Channel is on GPIO 2
+I (100384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (101384) ADC: Channel is on GPIO 2
+I (101384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (102384) ADC: Channel is on GPIO 2
+I (102384) Temperature Sensor: Unit: 0, Channel: 1, Value: 251, Voltage: 0.202 V, Temperature: -273.15 C
+I (103384) ADC: Channel is on GPIO 2
+I (103384) Temperature Sensor: Unit: 0, Channel: 1, Value: 579, Voltage: 0.467 V, Temperature: -273.15 C
+I (104384) ADC: Channel is on GPIO 2
+I (104384) Temperature Sensor: Unit: 0, Channel: 1, Value: 831, Voltage: 0.670 V, Temperature: -273.14 C
+I (105384) ADC: Channel is on GPIO 2
+I (105384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (106384) ADC: Channel is on GPIO 2
+I (106384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (107384) ADC: Channel is on GPIO 2
+I (107384) Temperature Sensor: Unit: 0, Channel: 1, Value: 4095, Voltage: 3.300 V, Temperature: -273.12 C
+I (108384) ADC: Channel is on GPIO 2
+I (108384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3849, Voltage: 3.102 V, Temperature: -273.12 C
+I (109384) ADC: Channel is on GPIO 2
+I (109384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3387, Voltage: 2.729 V, Temperature: -273.12 C
+I (110384) ADC: Channel is on GPIO 2
+I (110384) Temperature Sensor: Unit: 0, Channel: 1, Value: 3228, Voltage: 2.601 V, Temperature: -273.12 C
+I (111384) ADC: Channel is on GPIO 2
+I (111384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (112384) ADC: Channel is on GPIO 2
+I (112384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (113384) ADC: Channel is on GPIO 2
+I (113384) Temperature Sensor: Unit: 0, Channel: 1, Value: 0, Voltage: 0.000 V, Temperature: -273.15 C
+I (114384) ADC: Channel is on GPIO 2
+I (114384) Temperature Sensor: Unit: 0, Channel: 1, Value: 126, Voltage: 0.102 V, Temperature: -273.15 C
+I (115384) ADC: Channel is on GPIO 2
+I (115384) Temperature Sensor: Unit: 0, Channel: 1, Value: 470, Voltage: 0.379 V, Temperature: -273.15 C

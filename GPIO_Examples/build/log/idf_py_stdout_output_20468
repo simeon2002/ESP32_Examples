@@ -1,0 +1,156 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c6a4h ( 50852) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c6cc vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f1b4 vaddr=40374000 size=00e64h (  3684) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c2a0h (115360) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c2c8 vaddr=40374e64 size=0e7f8h ( 59384) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004aac8 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (162) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (180) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (185) app_init: ELF file SHA256:  3ea8333ad...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AD8 len 00052C38 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: -273.13 C[0m
+[0;32mI (1394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (1394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: -273.13 C[0m
+[0;32mI (2394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (2394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: -273.13 C[0m
+[0;32mI (3394) Temperature Sensor: Temperature values is: -273.128296[0m
+[0;32mI (3394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3212, Voltage: 2.527 V, Temperature: -273.13 C[0m
+[0;32mI (4394) Temperature Sensor: Temperature values is: -273.128143[0m
+[0;32mI (4394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3239, Voltage: 2.546 V, Temperature: -273.13 C[0m
+[0;32mI (5394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (5394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3220, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (6394) Temperature Sensor: Temperature values is: -273.128143[0m
+[0;32mI (6394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3239, Voltage: 2.546 V, Temperature: -273.13 C[0m
+[0;32mI (7394) Temperature Sensor: Temperature values is: -273.128235[0m
+[0;32mI (7394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: -273.13 C[0m
+[0;32mI (8394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (8394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (9394) Temperature Sensor: Temperature values is: -273.128235[0m
+[0;32mI (9394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: -273.13 C[0m
+[0;32mI (10394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (10394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3222, Voltage: 2.534 V, Temperature: -273.13 C[0m
+[0;32mI (11394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (11394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3235, Voltage: 2.543 V, Temperature: -273.13 C[0m
+[0;32mI (12394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (12394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3230, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (13394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (13394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: -273.13 C[0m
+[0;32mI (14394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (14394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: -273.13 C[0m
+[0;32mI (15394) Temperature Sensor: Temperature values is: -273.128143[0m
+[0;32mI (15394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3243, Voltage: 2.548 V, Temperature: -273.13 C[0m
+[0;32mI (16394) Temperature Sensor: Temperature values is: -273.128296[0m
+[0;32mI (16394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3216, Voltage: 2.530 V, Temperature: -273.13 C[0m
+[0;32mI (17394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (17394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (18394) Temperature Sensor: Temperature values is: -273.128326[0m
+[0;32mI (18394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3210, Voltage: 2.525 V, Temperature: -273.13 C[0m
+[0;32mI (19394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (19394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3237, Voltage: 2.544 V, Temperature: -273.13 C[0m
+[0;32mI (20394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (20394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (21394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (21394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3220, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (22394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (22394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3237, Voltage: 2.544 V, Temperature: -273.13 C[0m
+[0;32mI (23394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (23394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: -273.13 C[0m
+[0;32mI (24394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (24394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (25394) Temperature Sensor: Temperature values is: -273.128143[0m
+[0;32mI (25394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3243, Voltage: 2.548 V, Temperature: -273.13 C[0m
+[0;32mI (26394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (26394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3237, Voltage: 2.544 V, Temperature: -273.13 C[0m
+[0;32mI (27394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (27394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: -273.13 C[0m
+[0;32mI (28394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (28394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: -273.13 C[0m
+[0;32mI (29394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (29394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: -273.13 C[0m
+[0;32mI (30394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (30394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3237, Voltage: 2.544 V, Temperature: -273.13 C[0m
+[0;32mI (31394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (31394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3228, Voltage: 2.539 V, Temperature: -273.13 C[0m
+[0;32mI (32394) Temperature Sensor: Temperature values is: -273.128143[0m
+[0;32mI (32394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3242, Voltage: 2.548 V, Temperature: -273.13 C[0m
+[0;32mI (33394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (33394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (34394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (34394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (35394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (35394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: -273.13 C[0m
+[0;32mI (36394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (36394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3236, Voltage: 2.544 V, Temperature: -273.13 C[0m
+[0;32mI (37394) Temperature Sensor: Temperature values is: -273.128326[0m
+[0;32mI (37394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3209, Voltage: 2.525 V, Temperature: -273.13 C[0m
+[0;32mI (38394) Temperature Sensor: Temperature values is: -273.128296[0m
+[0;32mI (38394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3215, Voltage: 2.530 V, Temperature: -273.13 C[0m
+[0;32mI (39394) Temperature Sensor: Temperature values is: -273.128082[0m
+[0;32mI (39394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3250, Voltage: 2.554 V, Temperature: -273.13 C[0m
+[0;32mI (40394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (40394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: -273.13 C[0m
+[0;32mI (41394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (41394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3222, Voltage: 2.534 V, Temperature: -273.13 C[0m
+[0;32mI (42394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (42394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (43394) Temperature Sensor: Temperature values is: -273.128174[0m
+[0;32mI (43394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3235, Voltage: 2.543 V, Temperature: -273.13 C[0m
+[0;32mI (44394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (44394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: -273.13 C[0m
+[0;32mI (45394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (45394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: -273.13 C[0m
+[0;32mI (46394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (46394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: -273.13 C[0m
+[0;32mI (47394) Temperature Sensor: Temperature values is: -273.128265[0m
+[0;32mI (47394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3222, Voltage: 2.534 V, Temperature: -273.13 C[0m
+[0;32mI (48394) Temperature Sensor: Temperature values is: -273.128204[0m
+[0;32mI (48394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: -273.13 C[0m

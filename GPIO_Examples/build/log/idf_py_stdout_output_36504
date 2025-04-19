@@ -1,0 +1,461 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c74ch ( 51020) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c774 vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f25c vaddr=40374000 size=00dbch (  3516) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c390h (115600) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c3b8 vaddr=40374dbc size=0e8c0h ( 59584) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004ac80 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (181) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (186) app_init: ELF file SHA256:  d6b365273...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AE0 len 00052C30 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (228) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (704) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (754) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (804) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (854) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (904) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (954) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1004) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (1054) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1104) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (1154) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1204) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (1254) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (1304) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (1354) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (1404) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (1454) Temperature Sensor: raw adc: 3185, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (1504) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (1554) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (1604) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (1654) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (1704) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (1754) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (1804) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (1854) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (1904) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (1954) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2004) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (2054) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2104) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (2154) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (2204) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (2254) Temperature Sensor: raw adc: 3216, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (2304) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (2354) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2404) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (2454) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2504) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2554) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2604) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (2654) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (2704) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (2754) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (2804) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (2854) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2904) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (2954) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3004) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (3054) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3104) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (3154) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (3204) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (3254) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (3304) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3354) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (3404) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (3454) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3504) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3554) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (3604) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (3654) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (3704) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (3754) Temperature Sensor: raw adc: 3184, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (3804) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3854) Temperature Sensor: raw adc: 3200, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3904) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (3954) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (4004) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (4054) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (4104) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4154) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (4204) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (4254) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (4304) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (4354) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (4404) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4454) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (4504) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (4554) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (4604) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (4654) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4704) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (4754) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (4804) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (4854) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (4904) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (4954) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (5004) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (5054) Temperature Sensor: raw adc: 3218, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (5104) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (5154) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (5204) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (5254) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (5304) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (5354) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (5404) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (5454) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (5504) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (5554) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (5604) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (5654) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (5704) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (5754) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (5804) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (5854) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (5904) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (5954) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (6004) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (6054) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (6104) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (6154) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (6204) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (6254) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (6304) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (6354) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (6404) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (6454) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (6504) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (6554) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (6604) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (6654) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (6704) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (6754) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (6804) Temperature Sensor: raw adc: 3200, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (6854) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (6904) Temperature Sensor: raw adc: 3204, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (6954) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (7004) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (7054) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (7104) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (7154) Temperature Sensor: raw adc: 3179, voltage value [mV]: 2503, channel: 1, unit: 0[0m
+[0;32mI (7204) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (7254) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (7304) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (7354) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (7404) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (7454) Temperature Sensor: raw adc: 3175, voltage value [mV]: 2501, channel: 1, unit: 0[0m
+[0;32mI (7504) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (7554) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (7604) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (7654) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (7704) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (7754) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (7804) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (7854) Temperature Sensor: raw adc: 3182, voltage value [mV]: 2505, channel: 1, unit: 0[0m
+[0;32mI (7904) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (7954) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (8004) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8054) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (8104) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (8154) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8204) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (8254) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (8304) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8354) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (8404) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8454) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (8504) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8554) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (8604) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8654) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (8704) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8754) Temperature Sensor: raw adc: 3212, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (8804) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (8854) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (8904) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (8954) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (9004) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (9054) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (9104) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (9154) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (9204) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (9254) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (9304) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (9354) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (9404) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (9454) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (9504) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (9554) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (9604) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (9654) Temperature Sensor: raw adc: 3218, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (9704) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (9754) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (9804) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (9854) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (9904) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (9954) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (10004) Temperature Sensor: raw adc: 3176, voltage value [mV]: 2502, channel: 1, unit: 0[0m
+[0;32mI (10054) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (10104) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (10154) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (10204) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (10254) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 0.470 V, Avg Temp: -218.39 C[0m
+[0;32mI (10254) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (10304) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (10354) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (10404) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (10454) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (10504) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (10554) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (10604) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (10654) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (10704) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (10754) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (10804) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (10854) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (10904) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (10954) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (11004) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (11054) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (11104) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (11154) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (11204) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (11254) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (11304) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (11354) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (11404) Temperature Sensor: raw adc: 3218, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (11454) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (11504) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (11554) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (11604) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (11654) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (11704) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (11754) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (11804) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (11854) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (11904) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (11954) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (12004) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (12054) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (12104) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (12154) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (12204) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (12254) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (12304) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (12354) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (12404) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (12454) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (12504) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (12554) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (12604) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (12654) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (12704) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (12754) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (12804) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (12854) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (12904) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (12954) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (13004) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (13054) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (13104) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (13154) Temperature Sensor: raw adc: 3200, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (13204) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (13254) Temperature Sensor: raw adc: 3204, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (13304) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (13354) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (13404) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (13454) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (13504) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (13554) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (13604) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (13654) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (13704) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (13754) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (13804) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (13854) Temperature Sensor: raw adc: 3175, voltage value [mV]: 2501, channel: 1, unit: 0[0m
+[0;32mI (13904) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (13954) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (14004) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (14054) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (14104) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (14154) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (14204) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (14254) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (14304) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (14354) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (14404) Temperature Sensor: raw adc: 3181, voltage value [mV]: 2505, channel: 1, unit: 0[0m
+[0;32mI (14454) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (14504) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (14554) Temperature Sensor: raw adc: 3226, voltage value [mV]: 2538, channel: 1, unit: 0[0m
+[0;32mI (14604) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (14654) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (14704) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (14754) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (14804) Temperature Sensor: raw adc: 3179, voltage value [mV]: 2503, channel: 1, unit: 0[0m
+[0;32mI (14854) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (14904) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (14954) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (15004) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (15054) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (15104) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (15154) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (15204) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (15254) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (15304) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (15354) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (15404) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (15454) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (15504) Temperature Sensor: raw adc: 3218, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (15554) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (15604) Temperature Sensor: raw adc: 3212, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (15654) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (15704) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (15754) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (15804) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (15854) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (15904) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (15954) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (16004) Temperature Sensor: raw adc: 3212, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (16054) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (16104) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (16154) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (16204) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (16254) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (16304) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (16354) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (16404) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (16454) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (16504) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (16554) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (16604) Temperature Sensor: raw adc: 3212, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (16654) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (16704) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (16754) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (16804) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (16854) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (16904) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (16954) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (17004) Temperature Sensor: raw adc: 3222, voltage value [mV]: 2534, channel: 1, unit: 0[0m
+[0;32mI (17054) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (17104) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (17154) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (17204) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (17254) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (17304) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (17354) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (17404) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (17454) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (17504) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (17554) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (17604) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (17654) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (17704) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (17754) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (17804) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (17854) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (17904) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (17954) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (18004) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (18054) Temperature Sensor: raw adc: 3231, voltage value [mV]: 2541, channel: 1, unit: 0[0m
+[0;32mI (18104) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (18154) Temperature Sensor: raw adc: 3228, voltage value [mV]: 2539, channel: 1, unit: 0[0m
+[0;32mI (18204) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (18254) Temperature Sensor: raw adc: 3231, voltage value [mV]: 2541, channel: 1, unit: 0[0m
+[0;32mI (18304) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (18354) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (18404) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (18454) Temperature Sensor: raw adc: 3216, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (18504) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (18554) Temperature Sensor: raw adc: 3182, voltage value [mV]: 2505, channel: 1, unit: 0[0m
+[0;32mI (18604) Temperature Sensor: raw adc: 3206, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (18654) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (18704) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (18754) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (18804) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (18854) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (18904) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (18954) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (19004) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (19054) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (19104) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (19154) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (19204) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (19254) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (19304) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (19354) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (19404) Temperature Sensor: raw adc: 3214, voltage value [mV]: 2529, channel: 1, unit: 0[0m
+[0;32mI (19454) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (19504) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (19554) Temperature Sensor: raw adc: 3200, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (19604) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (19654) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (19704) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (19754) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (19804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 0.470 V, Avg Temp: -218.40 C[0m
+[0;32mI (19804) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (19854) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (19904) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (19954) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (20004) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m
+[0;32mI (20054) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (20104) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (20154) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (20204) Temperature Sensor: raw adc: 3175, voltage value [mV]: 2501, channel: 1, unit: 0[0m
+[0;32mI (20254) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (20304) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (20354) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (20404) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (20454) Temperature Sensor: raw adc: 3180, voltage value [mV]: 2504, channel: 1, unit: 0[0m
+[0;32mI (20504) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (20554) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (20604) Temperature Sensor: raw adc: 3194, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (20654) Temperature Sensor: raw adc: 3187, voltage value [mV]: 2510, channel: 1, unit: 0[0m

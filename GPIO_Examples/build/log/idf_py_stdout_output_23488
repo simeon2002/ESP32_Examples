@@ -1,0 +1,248 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c6c4h ( 50884) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c6ec vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f1d4 vaddr=40374000 size=00e44h (  3652) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c2c0h (115392) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c2e8 vaddr=40374e44 size=0e818h ( 59416) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004ab08 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (181) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (186) app_init: ELF file SHA256:  97e07c2d7...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AD8 len 00052C38 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (228) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (394) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (394) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (1404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (1404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (2404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (2404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (3404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (3404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (4404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (4404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (5404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.525000 and slope 0.008581[0m
+[0;32mI (5404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3210, Voltage: 2.525 V, Temperature: 273.17 C[0m
+[0;32mI (6404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.543000 and slope 0.008581[0m
+[0;32mI (6404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3234, Voltage: 2.543 V, Temperature: 273.17 C[0m
+[0;32mI (7404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (7404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3228, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (8404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.525000 and slope 0.008581[0m
+[0;32mI (8404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3209, Voltage: 2.525 V, Temperature: 273.17 C[0m
+[0;32mI (9404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.541000 and slope 0.008581[0m
+[0;32mI (9404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: 273.17 C[0m
+[0;32mI (10404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (10404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (11404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.546000 and slope 0.008581[0m
+[0;32mI (11404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3239, Voltage: 2.546 V, Temperature: 273.17 C[0m
+[0;32mI (12404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (12404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (13404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.525000 and slope 0.008581[0m
+[0;32mI (13404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3209, Voltage: 2.525 V, Temperature: 273.17 C[0m
+[0;32mI (14404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (14404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3208, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (15404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (15404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (16404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (16404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3208, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (17404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (17404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (18404) Temperature Sensor: Temperature values is: 273.171875 with voltage 2.551000 and slope 0.008581[0m
+[0;32mI (18404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3245, Voltage: 2.551 V, Temperature: 273.17 C[0m
+[0;32mI (19404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (19404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (20404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (20404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3207, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (21404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.532000 and slope 0.008581[0m
+[0;32mI (21404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: 273.17 C[0m
+[0;32mI (22404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.548000 and slope 0.008581[0m
+[0;32mI (22404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3241, Voltage: 2.548 V, Temperature: 273.17 C[0m
+[0;32mI (23404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.543000 and slope 0.008581[0m
+[0;32mI (23404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3235, Voltage: 2.543 V, Temperature: 273.17 C[0m
+[0;32mI (24404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (24404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (25404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (25404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3224, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (26404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.532000 and slope 0.008581[0m
+[0;32mI (26404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: 273.17 C[0m
+[0;32mI (27404) Temperature Sensor: Temperature values is: 273.171906 with voltage 2.555000 and slope 0.008581[0m
+[0;32mI (27404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3253, Voltage: 2.555 V, Temperature: 273.17 C[0m
+[0;32mI (28404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.541000 and slope 0.008581[0m
+[0;32mI (28404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: 273.17 C[0m
+[0;32mI (29404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (29404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3226, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (30404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (30404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3224, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (31404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (31404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3207, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (32404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (32404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (33404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (33404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (34404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (34404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (35404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (35404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3207, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (36404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.532000 and slope 0.008581[0m
+[0;32mI (36404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: 273.17 C[0m
+[0;32mI (37404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.530000 and slope 0.008581[0m
+[0;32mI (37404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3215, Voltage: 2.530 V, Temperature: 273.17 C[0m
+[0;32mI (38404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.529000 and slope 0.008581[0m
+[0;32mI (38404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3214, Voltage: 2.529 V, Temperature: 273.17 C[0m
+[0;32mI (39404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (39404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3226, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (40404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.529000 and slope 0.008581[0m
+[0;32mI (40404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3214, Voltage: 2.529 V, Temperature: 273.17 C[0m
+[0;32mI (41404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (41404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (42404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.544000 and slope 0.008581[0m
+[0;32mI (42404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3237, Voltage: 2.544 V, Temperature: 273.17 C[0m
+[0;32mI (43404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (43404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (44404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.548000 and slope 0.008581[0m
+[0;32mI (44404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3241, Voltage: 2.548 V, Temperature: 273.17 C[0m
+[0;32mI (45404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (45404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3228, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (46404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.526000 and slope 0.008581[0m
+[0;32mI (46404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3211, Voltage: 2.526 V, Temperature: 273.17 C[0m
+[0;32mI (47404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (47404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (48404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.530000 and slope 0.008581[0m
+[0;32mI (48404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3215, Voltage: 2.530 V, Temperature: 273.17 C[0m
+[0;32mI (49404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (49404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3212, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (50404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (50404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (51404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.548000 and slope 0.008581[0m
+[0;32mI (51404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3243, Voltage: 2.548 V, Temperature: 273.17 C[0m
+[0;32mI (52404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.525000 and slope 0.008581[0m
+[0;32mI (52404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3210, Voltage: 2.525 V, Temperature: 273.17 C[0m
+[0;32mI (53404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (53404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (54404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (54404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (55404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.534000 and slope 0.008581[0m
+[0;32mI (55404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3222, Voltage: 2.534 V, Temperature: 273.17 C[0m
+[0;32mI (56404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (56404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3212, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (57404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (57404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (58404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.543000 and slope 0.008581[0m
+[0;32mI (58404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3235, Voltage: 2.543 V, Temperature: 273.17 C[0m
+[0;32mI (59404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.530000 and slope 0.008581[0m
+[0;32mI (59404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3216, Voltage: 2.530 V, Temperature: 273.17 C[0m
+[0;32mI (60404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.544000 and slope 0.008581[0m
+[0;32mI (60404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3236, Voltage: 2.544 V, Temperature: 273.17 C[0m
+[0;32mI (61404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.525000 and slope 0.008581[0m
+[0;32mI (61404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3210, Voltage: 2.525 V, Temperature: 273.17 C[0m
+[0;32mI (62404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.543000 and slope 0.008581[0m
+[0;32mI (62404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3234, Voltage: 2.543 V, Temperature: 273.17 C[0m
+[0;32mI (63404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (63404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (64404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (64404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (65404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.546000 and slope 0.008581[0m
+[0;32mI (65404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3240, Voltage: 2.546 V, Temperature: 273.17 C[0m
+[0;32mI (66404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (66404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (67404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.529000 and slope 0.008581[0m
+[0;32mI (67404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3214, Voltage: 2.529 V, Temperature: 273.17 C[0m
+[0;32mI (68404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (68404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3212, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (69404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (69404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3220, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (70404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (70404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (71404) Temperature Sensor: Temperature values is: 273.171570 with voltage 2.516000 and slope 0.008581[0m
+[0;32mI (71404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3197, Voltage: 2.516 V, Temperature: 273.17 C[0m
+[0;32mI (72404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (72404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (73404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.532000 and slope 0.008581[0m
+[0;32mI (73404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3219, Voltage: 2.532 V, Temperature: 273.17 C[0m
+[0;32mI (74404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (74404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (75404) Temperature Sensor: Temperature values is: 273.171661 with voltage 2.524000 and slope 0.008581[0m
+[0;32mI (75404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3208, Voltage: 2.524 V, Temperature: 273.17 C[0m
+[0;32mI (76404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (76404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (77404) Temperature Sensor: Temperature values is: 273.171814 with voltage 2.543000 and slope 0.008581[0m
+[0;32mI (77404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3235, Voltage: 2.543 V, Temperature: 273.17 C[0m
+[0;32mI (78404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (78404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (79404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (79404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (80404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (80404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (81404) Temperature Sensor: Temperature values is: 273.171722 with voltage 2.533000 and slope 0.008581[0m
+[0;32mI (81404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3221, Voltage: 2.533 V, Temperature: 273.17 C[0m
+[0;32mI (82404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (82404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3226, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (83404) Temperature Sensor: Temperature values is: 273.171600 with voltage 2.518000 and slope 0.008581[0m
+[0;32mI (83404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3199, Voltage: 2.518 V, Temperature: 273.17 C[0m
+[0;32mI (84404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (84404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (85404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (85404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (86404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (86404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3225, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (87404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.527000 and slope 0.008581[0m
+[0;32mI (87404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3213, Voltage: 2.527 V, Temperature: 273.17 C[0m
+[0;32mI (88404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.539000 and slope 0.008581[0m
+[0;32mI (88404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3229, Voltage: 2.539 V, Temperature: 273.17 C[0m
+[0;32mI (89404) Temperature Sensor: Temperature values is: 273.171692 with voltage 2.530000 and slope 0.008581[0m
+[0;32mI (89404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3215, Voltage: 2.530 V, Temperature: 273.17 C[0m
+[0;32mI (90404) Temperature Sensor: Temperature values is: 273.171753 with voltage 2.535000 and slope 0.008581[0m
+[0;32mI (90404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3223, Voltage: 2.535 V, Temperature: 273.17 C[0m
+[0;32mI (91404) Temperature Sensor: Temperature values is: 273.171844 with voltage 2.548000 and slope 0.008581[0m
+[0;32mI (91404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3243, Voltage: 2.548 V, Temperature: 273.17 C[0m
+[0;32mI (92404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.541000 and slope 0.008581[0m
+[0;32mI (92404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3231, Voltage: 2.541 V, Temperature: 273.17 C[0m
+[0;32mI (93404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (93404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m
+[0;32mI (94404) Temperature Sensor: Temperature values is: 273.171783 with voltage 2.538000 and slope 0.008581[0m
+[0;32mI (94404) Temperature Sensor: Channel GPIO: 2, Unit: 0, Channel: 1, Raw: 3227, Voltage: 2.538 V, Temperature: 273.17 C[0m

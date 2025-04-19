@@ -9,6 +9,19 @@
         "ledc_types.h": "c",
         "bitset": "c",
         "set": "c",
-        "format": "c"
-    }
+        "format": "c",
+        "*.tcc": "c",
+        "complex": "c",
+        "regex": "c",
+        "compare": "c",
+        "cstdint": "c",
+        "inttypes.h": "c",
+        "adc_cali.h": "c",
+        "adc_cali_scheme.h": "c",
+        "esp_mac.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "esp_timer.h": "c"
+    },
+    "idf.portWin": "COM7"
 }

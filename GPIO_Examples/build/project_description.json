@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "GPIO_Example",
-    "project_version":    "1",
+    "project_version":    "ce7ed68-dirty",
     "project_path":       "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.4",
     "build_dir":          "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/build/esp-idf/main/libmain.a",
-            "sources": [ "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/main/Servo_Control.c" ],
+            "sources": [ "S:/Self_Learning/Programming/ESP32 Programming Tutorial Learning/GPIO_Examples/main/Temperature_Module.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

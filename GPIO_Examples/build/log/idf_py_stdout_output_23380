@@ -1,0 +1,549 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c71ch ( 50972) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c744 vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f22c vaddr=40374000 size=00dech (  3564) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c408h (115720) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c430 vaddr=40374dec size=0e890h ( 59536) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004acc8 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (181) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (186) app_init: ELF file SHA256:  28d95adbd...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AE8 len 00052C28 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (1124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.624 V, Avg Temp: 37.4 C, Smoothed Temp: 37.4 C[0m
+[0;32mI (1964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.623 V, Avg Temp: 37.3 C, Smoothed Temp: 37.4 C[0m
+[0;32mI (2804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.621 V, Avg Temp: 37.1 C, Smoothed Temp: 37.3 C[0m
+[0;32mI (3644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.620 V, Avg Temp: 36.9 C, Smoothed Temp: 37.2 C[0m
+[0;32mI (4474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.620 V, Avg Temp: 37.0 C, Smoothed Temp: 37.1 C[0m
+[0;32mI (5314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.619 V, Avg Temp: 36.8 C, Smoothed Temp: 37.0 C[0m
+[0;32mI (6154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.617 V, Avg Temp: 36.7 C, Smoothed Temp: 36.9 C[0m
+[0;32mI (6994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.617 V, Avg Temp: 36.6 C, Smoothed Temp: 36.8 C[0m
+[0;32mI (7824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.616 V, Avg Temp: 36.5 C, Smoothed Temp: 36.7 C[0m
+[0;32mI (8664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.614 V, Avg Temp: 36.3 C, Smoothed Temp: 36.6 C[0m
+[0;32mI (9504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.614 V, Avg Temp: 36.2 C, Smoothed Temp: 36.5 C[0m
+[0;32mI (10344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.613 V, Avg Temp: 36.1 C, Smoothed Temp: 36.4 C[0m
+[0;32mI (11184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.613 V, Avg Temp: 36.2 C, Smoothed Temp: 36.3 C[0m
+[0;32mI (12014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.611 V, Avg Temp: 35.9 C, Smoothed Temp: 36.2 C[0m
+[0;32mI (12854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.611 V, Avg Temp: 35.9 C, Smoothed Temp: 36.1 C[0m
+[0;32mI (13694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.610 V, Avg Temp: 35.8 C, Smoothed Temp: 36.0 C[0m
+[0;32mI (14534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.610 V, Avg Temp: 35.8 C, Smoothed Temp: 35.9 C[0m
+[0;32mI (15374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.608 V, Avg Temp: 35.6 C, Smoothed Temp: 35.8 C[0m
+[0;32mI (16204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.606 V, Avg Temp: 35.4 C, Smoothed Temp: 35.7 C[0m
+[0;32mI (17044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.605 V, Avg Temp: 35.2 C, Smoothed Temp: 35.6 C[0m
+[0;32mI (17884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.603 V, Avg Temp: 35.0 C, Smoothed Temp: 35.4 C[0m
+[0;32mI (18724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.9 C, Smoothed Temp: 35.2 C[0m
+[0;32mI (19554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.9 C, Smoothed Temp: 35.1 C[0m
+[0;32mI (20394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.9 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (21234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.9 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (22074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.603 V, Avg Temp: 34.9 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (22914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.604 V, Avg Temp: 35.1 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (23744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.605 V, Avg Temp: 35.1 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (24584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.606 V, Avg Temp: 35.3 C, Smoothed Temp: 35.1 C[0m
+[0;32mI (25424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.605 V, Avg Temp: 35.2 C, Smoothed Temp: 35.1 C[0m
+[0;32mI (26264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.605 V, Avg Temp: 35.2 C, Smoothed Temp: 35.2 C[0m
+[0;32mI (27104) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.604 V, Avg Temp: 35.0 C, Smoothed Temp: 35.1 C[0m
+[0;32mI (27934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.9 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (28774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.601 V, Avg Temp: 34.7 C, Smoothed Temp: 34.9 C[0m
+[0;32mI (29614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.601 V, Avg Temp: 34.7 C, Smoothed Temp: 34.9 C[0m
+[0;32mI (30454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.599 V, Avg Temp: 34.5 C, Smoothed Temp: 34.8 C[0m
+[0;32mI (31284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.599 V, Avg Temp: 34.5 C, Smoothed Temp: 34.7 C[0m
+[0;32mI (32124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.598 V, Avg Temp: 34.4 C, Smoothed Temp: 34.6 C[0m
+[0;32mI (32964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.597 V, Avg Temp: 34.3 C, Smoothed Temp: 34.5 C[0m
+[0;32mI (33804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.596 V, Avg Temp: 34.1 C, Smoothed Temp: 34.4 C[0m
+[0;32mI (34644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.2 C[0m
+[0;32mI (35474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.1 C[0m
+[0;32mI (36314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.1 C[0m
+[0;32mI (37154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (37994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.595 V, Avg Temp: 34.0 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (38824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.595 V, Avg Temp: 34.0 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (39664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (40504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.595 V, Avg Temp: 34.0 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (41344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.9 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (42184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.8 C, Smoothed Temp: 33.9 C[0m
+[0;32mI (43014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.8 C, Smoothed Temp: 33.9 C[0m
+[0;32mI (43854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.594 V, Avg Temp: 33.8 C, Smoothed Temp: 33.9 C[0m
+[0;32mI (44694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.8 C, Smoothed Temp: 33.8 C[0m
+[0;32mI (45534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.8 C, Smoothed Temp: 33.8 C[0m
+[0;32mI (46374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.6 C, Smoothed Temp: 33.8 C[0m
+[0;32mI (47204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.6 C, Smoothed Temp: 33.7 C[0m
+[0;32mI (48044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.7 C, Smoothed Temp: 33.7 C[0m
+[0;32mI (48884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.6 C, Smoothed Temp: 33.7 C[0m
+[0;32mI (49724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.6 C, Smoothed Temp: 33.7 C[0m
+[0;32mI (50554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.6 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (51394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.6 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (52234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.6 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (53074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.5 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (53914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.590 V, Avg Temp: 33.5 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (54744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.590 V, Avg Temp: 33.5 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (55584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.5 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (56424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.5 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (57264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.3 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (58104) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.3 C, Smoothed Temp: 33.4 C[0m
+[0;32mI (58934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.3 C, Smoothed Temp: 33.4 C[0m
+[0;32mI (59774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.3 C[0m
+[0;32mI (60614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.3 C[0m
+[0;32mI (61454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 32.9 C, Smoothed Temp: 33.2 C[0m
+[0;32mI (62284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 33.1 C[0m
+[0;32mI (63124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 33.0 C[0m
+[0;32mI (63964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (64804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (65644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (66474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (67314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (68154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (68994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (69824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.8 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (70664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (71504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (72344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (73184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.8 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (74014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (74854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (75694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.7 C[0m
+[0;32mI (76534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.583 V, Avg Temp: 32.6 C, Smoothed Temp: 32.7 C[0m
+[0;32mI (77374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.583 V, Avg Temp: 32.5 C, Smoothed Temp: 32.7 C[0m
+[0;32mI (78204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.4 C, Smoothed Temp: 32.6 C[0m
+[0;32mI (79044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.3 C, Smoothed Temp: 32.5 C[0m
+[0;32mI (79884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.3 C, Smoothed Temp: 32.4 C[0m
+[0;32mI (80724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.4 C, Smoothed Temp: 32.4 C[0m
+[0;32mI (81554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.3 C, Smoothed Temp: 32.4 C[0m
+[0;32mI (82394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (83234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (84074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.579 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (84914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.578 V, Avg Temp: 32.0 C, Smoothed Temp: 32.2 C[0m
+[0;32mI (85744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.578 V, Avg Temp: 32.0 C, Smoothed Temp: 32.1 C[0m
+[0;32mI (86584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.579 V, Avg Temp: 32.1 C, Smoothed Temp: 32.1 C[0m
+[0;32mI (87424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.579 V, Avg Temp: 32.1 C, Smoothed Temp: 32.1 C[0m
+[0;32mI (88264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.583 V, Avg Temp: 32.6 C, Smoothed Temp: 32.2 C[0m
+[0;32mI (89104) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.598 V, Avg Temp: 34.4 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (89934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.617 V, Avg Temp: 36.6 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (90774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.659 V, Avg Temp: 41.6 C, Smoothed Temp: 36.3 C[0m
+[0;32mI (91614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.702 V, Avg Temp: 46.6 C, Smoothed Temp: 39.4 C[0m
+[0;32mI (92454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.719 V, Avg Temp: 48.7 C, Smoothed Temp: 42.2 C[0m
+[0;32mI (93284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.758 V, Avg Temp: 53.3 C, Smoothed Temp: 45.5 C[0m
+[0;32mI (94124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.770 V, Avg Temp: 54.7 C, Smoothed Temp: 48.3 C[0m
+[0;32mI (94964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.788 V, Avg Temp: 56.8 C, Smoothed Temp: 50.8 C[0m
+[0;32mI (95804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.800 V, Avg Temp: 58.3 C, Smoothed Temp: 53.1 C[0m
+[0;32mI (96644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.803 V, Avg Temp: 58.7 C, Smoothed Temp: 54.8 C[0m
+[0;32mI (97474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.807 V, Avg Temp: 59.1 C, Smoothed Temp: 56.0 C[0m
+[0;32mI (98314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.806 V, Avg Temp: 58.9 C, Smoothed Temp: 56.9 C[0m
+[0;32mI (99154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.808 V, Avg Temp: 59.3 C, Smoothed Temp: 57.6 C[0m
+[0;32mI (99994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.806 V, Avg Temp: 59.0 C, Smoothed Temp: 58.0 C[0m
+[0;32mI (100824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.802 V, Avg Temp: 58.6 C, Smoothed Temp: 58.2 C[0m
+[0;32mI (101664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.787 V, Avg Temp: 56.8 C, Smoothed Temp: 57.8 C[0m
+[0;32mI (102504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.785 V, Avg Temp: 56.5 C, Smoothed Temp: 57.4 C[0m
+[0;32mI (103344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.812 V, Avg Temp: 59.8 C, Smoothed Temp: 58.1 C[0m
+[0;32mI (104184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.844 V, Avg Temp: 63.4 C, Smoothed Temp: 59.7 C[0m
+[0;32mI (105014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.863 V, Avg Temp: 65.7 C, Smoothed Temp: 61.5 C[0m
+[0;32mI (105854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.904 V, Avg Temp: 70.6 C, Smoothed Temp: 64.2 C[0m
+[0;32mI (106694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.917 V, Avg Temp: 72.2 C, Smoothed Temp: 66.6 C[0m
+[0;32mI (107534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.937 V, Avg Temp: 74.5 C, Smoothed Temp: 69.0 C[0m
+[0;32mI (108374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.946 V, Avg Temp: 75.6 C, Smoothed Temp: 71.0 C[0m
+[0;32mI (109204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.938 V, Avg Temp: 74.6 C, Smoothed Temp: 72.0 C[0m
+[0;32mI (110044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.920 V, Avg Temp: 72.5 C, Smoothed Temp: 72.2 C[0m
+[0;32mI (110884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.913 V, Avg Temp: 71.6 C, Smoothed Temp: 72.0 C[0m
+[0;32mI (111724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.900 V, Avg Temp: 70.1 C, Smoothed Temp: 71.4 C[0m
+[0;32mI (112554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.888 V, Avg Temp: 68.7 C, Smoothed Temp: 70.6 C[0m
+[0;32mI (113394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.883 V, Avg Temp: 68.1 C, Smoothed Temp: 69.8 C[0m
+[0;32mI (114234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.876 V, Avg Temp: 67.3 C, Smoothed Temp: 69.1 C[0m
+[0;32mI (115074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.876 V, Avg Temp: 67.3 C, Smoothed Temp: 68.6 C[0m
+[0;32mI (115914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.876 V, Avg Temp: 67.2 C, Smoothed Temp: 68.2 C[0m
+[0;32mI (116744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.873 V, Avg Temp: 67.0 C, Smoothed Temp: 67.8 C[0m
+[0;32mI (117584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.869 V, Avg Temp: 66.4 C, Smoothed Temp: 67.4 C[0m
+[0;32mI (118424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.860 V, Avg Temp: 65.4 C, Smoothed Temp: 66.8 C[0m
+[0;32mI (119264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.860 V, Avg Temp: 65.4 C, Smoothed Temp: 66.4 C[0m
+[0;32mI (120094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.872 V, Avg Temp: 66.8 C, Smoothed Temp: 66.5 C[0m
+[0;32mI (120934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.884 V, Avg Temp: 68.3 C, Smoothed Temp: 67.0 C[0m
+[0;32mI (121774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.891 V, Avg Temp: 69.0 C, Smoothed Temp: 67.6 C[0m
+[0;32mI (122614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.901 V, Avg Temp: 70.3 C, Smoothed Temp: 68.4 C[0m
+[0;32mI (123454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.903 V, Avg Temp: 70.5 C, Smoothed Temp: 69.1 C[0m
+[0;32mI (124284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.901 V, Avg Temp: 70.2 C, Smoothed Temp: 69.4 C[0m
+[0;32mI (125124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.892 V, Avg Temp: 69.1 C, Smoothed Temp: 69.3 C[0m
+[0;32mI (125964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.884 V, Avg Temp: 68.2 C, Smoothed Temp: 69.0 C[0m
+[0;32mI (126804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.866 V, Avg Temp: 66.1 C, Smoothed Temp: 68.1 C[0m
+[0;32mI (127644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.860 V, Avg Temp: 65.3 C, Smoothed Temp: 67.3 C[0m
+[0;32mI (128474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.848 V, Avg Temp: 64.0 C, Smoothed Temp: 66.3 C[0m
+[0;32mI (129314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.837 V, Avg Temp: 62.7 C, Smoothed Temp: 65.2 C[0m
+[0;32mI (130154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.832 V, Avg Temp: 62.0 C, Smoothed Temp: 64.3 C[0m
+[0;32mI (130994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.818 V, Avg Temp: 60.5 C, Smoothed Temp: 63.1 C[0m
+[0;32mI (131824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.814 V, Avg Temp: 59.9 C, Smoothed Temp: 62.2 C[0m
+[0;32mI (132664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.805 V, Avg Temp: 58.9 C, Smoothed Temp: 61.2 C[0m
+[0;32mI (133504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.797 V, Avg Temp: 57.9 C, Smoothed Temp: 60.2 C[0m
+[0;32mI (134344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.793 V, Avg Temp: 57.4 C, Smoothed Temp: 59.4 C[0m
+[0;32mI (135184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.783 V, Avg Temp: 56.2 C, Smoothed Temp: 58.4 C[0m
+[0;32mI (136014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.778 V, Avg Temp: 55.7 C, Smoothed Temp: 57.6 C[0m
+[0;32mI (136854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.770 V, Avg Temp: 54.7 C, Smoothed Temp: 56.7 C[0m
+[0;32mI (137694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.762 V, Avg Temp: 53.8 C, Smoothed Temp: 55.9 C[0m
+[0;32mI (138534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.759 V, Avg Temp: 53.4 C, Smoothed Temp: 55.1 C[0m
+[0;32mI (139374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.751 V, Avg Temp: 52.4 C, Smoothed Temp: 54.3 C[0m
+[0;32mI (140204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.747 V, Avg Temp: 52.1 C, Smoothed Temp: 53.6 C[0m
+[0;32mI (141044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.743 V, Avg Temp: 51.6 C, Smoothed Temp: 53.0 C[0m
+[0;32mI (141884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.739 V, Avg Temp: 51.1 C, Smoothed Temp: 52.4 C[0m
+[0;32mI (142724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.736 V, Avg Temp: 50.7 C, Smoothed Temp: 51.9 C[0m
+[0;32mI (143554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.729 V, Avg Temp: 49.9 C, Smoothed Temp: 51.3 C[0m
+[0;32mI (144394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.727 V, Avg Temp: 49.6 C, Smoothed Temp: 50.8 C[0m
+[0;32mI (145234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.723 V, Avg Temp: 49.2 C, Smoothed Temp: 50.3 C[0m
+[0;32mI (146074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.719 V, Avg Temp: 48.7 C, Smoothed Temp: 49.8 C[0m
+[0;32mI (146914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.717 V, Avg Temp: 48.4 C, Smoothed Temp: 49.4 C[0m
+[0;32mI (147744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.712 V, Avg Temp: 47.9 C, Smoothed Temp: 48.9 C[0m
+[0;32mI (148584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.711 V, Avg Temp: 47.8 C, Smoothed Temp: 48.6 C[0m
+[0;32mI (149424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.709 V, Avg Temp: 47.5 C, Smoothed Temp: 48.3 C[0m
+[0;32mI (150264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.707 V, Avg Temp: 47.3 C, Smoothed Temp: 48.0 C[0m
+[0;32mI (151094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.706 V, Avg Temp: 47.1 C, Smoothed Temp: 47.7 C[0m
+[0;32mI (151934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.703 V, Avg Temp: 46.8 C, Smoothed Temp: 47.4 C[0m
+[0;32mI (152774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.700 V, Avg Temp: 46.4 C, Smoothed Temp: 47.1 C[0m
+[0;32mI (153614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.697 V, Avg Temp: 46.1 C, Smoothed Temp: 46.8 C[0m
+[0;32mI (154454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.694 V, Avg Temp: 45.7 C, Smoothed Temp: 46.5 C[0m
+[0;32mI (155284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.693 V, Avg Temp: 45.6 C, Smoothed Temp: 46.2 C[0m
+[0;32mI (156124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.690 V, Avg Temp: 45.2 C, Smoothed Temp: 45.9 C[0m
+[0;32mI (156964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.689 V, Avg Temp: 45.2 C, Smoothed Temp: 45.7 C[0m
+[0;32mI (157804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.688 V, Avg Temp: 45.0 C, Smoothed Temp: 45.5 C[0m
+[0;32mI (158644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.687 V, Avg Temp: 44.9 C, Smoothed Temp: 45.3 C[0m
+[0;32mI (159474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.685 V, Avg Temp: 44.7 C, Smoothed Temp: 45.1 C[0m
+[0;32mI (160314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.685 V, Avg Temp: 44.6 C, Smoothed Temp: 45.0 C[0m
+[0;32mI (161154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.685 V, Avg Temp: 44.7 C, Smoothed Temp: 44.9 C[0m
+[0;32mI (161994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.684 V, Avg Temp: 44.6 C, Smoothed Temp: 44.8 C[0m
+[0;32mI (162824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.683 V, Avg Temp: 44.5 C, Smoothed Temp: 44.7 C[0m
+[0;32mI (163664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.682 V, Avg Temp: 44.3 C, Smoothed Temp: 44.6 C[0m
+[0;32mI (164504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.680 V, Avg Temp: 44.0 C, Smoothed Temp: 44.4 C[0m
+[0;32mI (165344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.679 V, Avg Temp: 44.0 C, Smoothed Temp: 44.3 C[0m
+[0;32mI (166184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.678 V, Avg Temp: 43.8 C, Smoothed Temp: 44.1 C[0m
+[0;32mI (167014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.678 V, Avg Temp: 43.8 C, Smoothed Temp: 44.0 C[0m
+[0;32mI (167854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.676 V, Avg Temp: 43.6 C, Smoothed Temp: 43.9 C[0m
+[0;32mI (168694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.674 V, Avg Temp: 43.4 C, Smoothed Temp: 43.8 C[0m
+[0;32mI (169534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.673 V, Avg Temp: 43.2 C, Smoothed Temp: 43.6 C[0m
+[0;32mI (170374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.672 V, Avg Temp: 43.2 C, Smoothed Temp: 43.5 C[0m
+[0;32mI (171204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.670 V, Avg Temp: 42.9 C, Smoothed Temp: 43.3 C[0m
+[0;32mI (172044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.670 V, Avg Temp: 42.9 C, Smoothed Temp: 43.2 C[0m
+[0;32mI (172884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.668 V, Avg Temp: 42.6 C, Smoothed Temp: 43.0 C[0m
+[0;32mI (173724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.667 V, Avg Temp: 42.6 C, Smoothed Temp: 42.9 C[0m
+[0;32mI (174554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.667 V, Avg Temp: 42.5 C, Smoothed Temp: 42.8 C[0m
+[0;32mI (175394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.665 V, Avg Temp: 42.3 C, Smoothed Temp: 42.6 C[0m
+[0;32mI (176234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.664 V, Avg Temp: 42.2 C, Smoothed Temp: 42.5 C[0m
+[0;32mI (177074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.664 V, Avg Temp: 42.1 C, Smoothed Temp: 42.4 C[0m
+[0;32mI (177914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.662 V, Avg Temp: 42.0 C, Smoothed Temp: 42.3 C[0m
+[0;32mI (178744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.661 V, Avg Temp: 41.8 C, Smoothed Temp: 42.1 C[0m
+[0;32mI (179584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.658 V, Avg Temp: 41.5 C, Smoothed Temp: 41.9 C[0m
+[0;32mI (180424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.656 V, Avg Temp: 41.3 C, Smoothed Temp: 41.7 C[0m
+[0;32mI (181264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.654 V, Avg Temp: 40.9 C, Smoothed Temp: 41.5 C[0m
+[0;32mI (182094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.652 V, Avg Temp: 40.7 C, Smoothed Temp: 41.3 C[0m
+[0;32mI (182934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.650 V, Avg Temp: 40.5 C, Smoothed Temp: 41.0 C[0m
+[0;32mI (183774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.647 V, Avg Temp: 40.2 C, Smoothed Temp: 40.8 C[0m
+[0;32mI (184614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.646 V, Avg Temp: 40.0 C, Smoothed Temp: 40.6 C[0m
+[0;32mI (185454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.643 V, Avg Temp: 39.7 C, Smoothed Temp: 40.3 C[0m
+[0;32mI (186284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.643 V, Avg Temp: 39.7 C, Smoothed Temp: 40.1 C[0m
+[0;32mI (187124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.642 V, Avg Temp: 39.5 C, Smoothed Temp: 39.9 C[0m
+[0;32mI (187964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.641 V, Avg Temp: 39.5 C, Smoothed Temp: 39.8 C[0m
+[0;32mI (188804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.640 V, Avg Temp: 39.4 C, Smoothed Temp: 39.7 C[0m
+[0;32mI (189644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.639 V, Avg Temp: 39.2 C, Smoothed Temp: 39.5 C[0m
+[0;32mI (190474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.638 V, Avg Temp: 39.1 C, Smoothed Temp: 39.4 C[0m
+[0;32mI (191314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.639 V, Avg Temp: 39.2 C, Smoothed Temp: 39.4 C[0m
+[0;32mI (192154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.639 V, Avg Temp: 39.2 C, Smoothed Temp: 39.3 C[0m
+[0;32mI (192994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.637 V, Avg Temp: 39.0 C, Smoothed Temp: 39.2 C[0m
+[0;32mI (193824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.635 V, Avg Temp: 38.7 C, Smoothed Temp: 39.1 C[0m
+[0;32mI (194664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.635 V, Avg Temp: 38.7 C, Smoothed Temp: 38.9 C[0m
+[0;32mI (195504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.633 V, Avg Temp: 38.5 C, Smoothed Temp: 38.8 C[0m
+[0;32mI (196344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.631 V, Avg Temp: 38.2 C, Smoothed Temp: 38.6 C[0m
+[0;32mI (197184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.630 V, Avg Temp: 38.1 C, Smoothed Temp: 38.5 C[0m
+[0;32mI (198014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.628 V, Avg Temp: 37.9 C, Smoothed Temp: 38.3 C[0m
+[0;32mI (198854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.627 V, Avg Temp: 37.8 C, Smoothed Temp: 38.2 C[0m
+[0;32mI (199694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.626 V, Avg Temp: 37.7 C, Smoothed Temp: 38.0 C[0m
+[0;32mI (200534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.625 V, Avg Temp: 37.6 C, Smoothed Temp: 37.9 C[0m
+[0;32mI (201374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.625 V, Avg Temp: 37.6 C, Smoothed Temp: 37.8 C[0m
+[0;32mI (202204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.625 V, Avg Temp: 37.6 C, Smoothed Temp: 37.7 C[0m
+[0;32mI (203044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.624 V, Avg Temp: 37.4 C, Smoothed Temp: 37.6 C[0m
+[0;32mI (203884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.623 V, Avg Temp: 37.3 C, Smoothed Temp: 37.5 C[0m
+[0;32mI (204724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.622 V, Avg Temp: 37.2 C, Smoothed Temp: 37.4 C[0m
+[0;32mI (205554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.623 V, Avg Temp: 37.3 C, Smoothed Temp: 37.4 C[0m
+[0;32mI (206394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.623 V, Avg Temp: 37.3 C, Smoothed Temp: 37.4 C[0m
+[0;32mI (207234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.621 V, Avg Temp: 37.1 C, Smoothed Temp: 37.3 C[0m
+[0;32mI (208074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.620 V, Avg Temp: 37.0 C, Smoothed Temp: 37.2 C[0m
+[0;32mI (208914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.618 V, Avg Temp: 36.7 C, Smoothed Temp: 37.1 C[0m
+[0;32mI (209744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.616 V, Avg Temp: 36.5 C, Smoothed Temp: 36.9 C[0m
+[0;32mI (210584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.613 V, Avg Temp: 36.2 C, Smoothed Temp: 36.7 C[0m
+[0;32mI (211424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.612 V, Avg Temp: 36.1 C, Smoothed Temp: 36.5 C[0m
+[0;32mI (212264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.611 V, Avg Temp: 36.0 C, Smoothed Temp: 36.3 C[0m
+[0;32mI (213094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.609 V, Avg Temp: 35.7 C, Smoothed Temp: 36.1 C[0m
+[0;32mI (213934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.609 V, Avg Temp: 35.7 C, Smoothed Temp: 36.0 C[0m
+[0;32mI (214774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.608 V, Avg Temp: 35.6 C, Smoothed Temp: 35.9 C[0m
+[0;32mI (215614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.609 V, Avg Temp: 35.6 C, Smoothed Temp: 35.8 C[0m
+[0;32mI (216454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.608 V, Avg Temp: 35.6 C, Smoothed Temp: 35.7 C[0m
+[0;32mI (217284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.608 V, Avg Temp: 35.5 C, Smoothed Temp: 35.7 C[0m
+[0;32mI (218124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.607 V, Avg Temp: 35.4 C, Smoothed Temp: 35.6 C[0m
+[0;32mI (218964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.605 V, Avg Temp: 35.2 C, Smoothed Temp: 35.5 C[0m
+[0;32mI (219804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.604 V, Avg Temp: 35.1 C, Smoothed Temp: 35.3 C[0m
+[0;32mI (220644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.603 V, Avg Temp: 35.0 C, Smoothed Temp: 35.2 C[0m
+[0;32mI (221474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.603 V, Avg Temp: 35.0 C, Smoothed Temp: 35.2 C[0m
+[0;32mI (222314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.602 V, Avg Temp: 34.8 C, Smoothed Temp: 35.1 C[0m
+[0;32mI (223154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.601 V, Avg Temp: 34.7 C, Smoothed Temp: 35.0 C[0m
+[0;32mI (223994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.601 V, Avg Temp: 34.7 C, Smoothed Temp: 34.9 C[0m
+[0;32mI (224824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.599 V, Avg Temp: 34.5 C, Smoothed Temp: 34.7 C[0m
+[0;32mI (225664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.597 V, Avg Temp: 34.3 C, Smoothed Temp: 34.6 C[0m
+[0;32mI (226504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.597 V, Avg Temp: 34.2 C, Smoothed Temp: 34.5 C[0m
+[0;32mI (227344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.596 V, Avg Temp: 34.1 C, Smoothed Temp: 34.4 C[0m
+[0;32mI (228184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.595 V, Avg Temp: 34.0 C, Smoothed Temp: 34.3 C[0m
+[0;32mI (229014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.8 C, Smoothed Temp: 34.1 C[0m
+[0;32mI (229854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.7 C, Smoothed Temp: 34.0 C[0m
+[0;32mI (230694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.7 C, Smoothed Temp: 33.9 C[0m
+[0;32mI (231534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.593 V, Avg Temp: 33.8 C, Smoothed Temp: 33.9 C[0m
+[0;32mI (232374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.7 C, Smoothed Temp: 33.8 C[0m
+[0;32mI (233204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.592 V, Avg Temp: 33.6 C, Smoothed Temp: 33.8 C[0m
+[0;32mI (234044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.591 V, Avg Temp: 33.5 C, Smoothed Temp: 33.7 C[0m
+[0;32mI (234884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.590 V, Avg Temp: 33.4 C, Smoothed Temp: 33.6 C[0m
+[0;32mI (235724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.590 V, Avg Temp: 33.4 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (236554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.3 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (237394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.590 V, Avg Temp: 33.4 C, Smoothed Temp: 33.5 C[0m
+[0;32mI (238234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.4 C, Smoothed Temp: 33.4 C[0m
+[0;32mI (239074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.589 V, Avg Temp: 33.3 C, Smoothed Temp: 33.4 C[0m
+[0;32mI (239914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.1 C, Smoothed Temp: 33.3 C[0m
+[0;32mI (240744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.3 C[0m
+[0;32mI (241584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.3 C[0m
+[0;32mI (242424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.2 C[0m
+[0;32mI (243264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.588 V, Avg Temp: 33.2 C, Smoothed Temp: 33.2 C[0m
+[0;32mI (244094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.587 V, Avg Temp: 33.1 C, Smoothed Temp: 33.2 C[0m
+[0;32mI (244934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.587 V, Avg Temp: 33.0 C, Smoothed Temp: 33.1 C[0m
+[0;32mI (245774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 33.0 C, Smoothed Temp: 33.1 C[0m
+[0;32mI (246614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 32.9 C, Smoothed Temp: 33.0 C[0m
+[0;32mI (247454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 33.0 C[0m
+[0;32mI (248284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 32.9 C, Smoothed Temp: 33.0 C[0m
+[0;32mI (249124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (249964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.586 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (250804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (251644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.9 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (252474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.585 V, Avg Temp: 32.8 C, Smoothed Temp: 32.9 C[0m
+[0;32mI (253314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (254154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (254994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.584 V, Avg Temp: 32.7 C, Smoothed Temp: 32.8 C[0m
+[0;32mI (255824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.583 V, Avg Temp: 32.7 C, Smoothed Temp: 32.7 C[0m
+[0;32mI (256664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.582 V, Avg Temp: 32.5 C, Smoothed Temp: 32.7 C[0m
+[0;32mI (257504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.582 V, Avg Temp: 32.5 C, Smoothed Temp: 32.6 C[0m
+[0;32mI (258344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.4 C, Smoothed Temp: 32.6 C[0m
+[0;32mI (259184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.4 C, Smoothed Temp: 32.5 C[0m
+[0;32mI (260014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.581 V, Avg Temp: 32.4 C, Smoothed Temp: 32.5 C[0m
+[0;32mI (260854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.4 C[0m
+[0;32mI (261694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (262534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (263374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.580 V, Avg Temp: 32.2 C, Smoothed Temp: 32.3 C[0m
+[0;32mI (264204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.579 V, Avg Temp: 32.1 C, Smoothed Temp: 32.2 C[0m
+[0;32mI (265044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.578 V, Avg Temp: 32.0 C, Smoothed Temp: 32.1 C[0m
+[0;32mI (265884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.578 V, Avg Temp: 32.0 C, Smoothed Temp: 32.1 C[0m
+[0;32mI (266724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.578 V, Avg Temp: 31.9 C, Smoothed Temp: 32.0 C[0m
+[0;32mI (267554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.577 V, Avg Temp: 31.9 C, Smoothed Temp: 32.0 C[0m
+[0;32mI (268394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.577 V, Avg Temp: 31.9 C, Smoothed Temp: 32.0 C[0m
+[0;32mI (269234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.577 V, Avg Temp: 31.8 C, Smoothed Temp: 31.9 C[0m
+[0;32mI (270074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.577 V, Avg Temp: 31.8 C, Smoothed Temp: 31.9 C[0m
+[0;32mI (270914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.577 V, Avg Temp: 31.8 C, Smoothed Temp: 31.9 C[0m
+[0;32mI (271744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.576 V, Avg Temp: 31.8 C, Smoothed Temp: 31.9 C[0m
+[0;32mI (272584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.576 V, Avg Temp: 31.7 C, Smoothed Temp: 31.8 C[0m
+[0;32mI (273424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.574 V, Avg Temp: 31.5 C, Smoothed Temp: 31.7 C[0m
+[0;32mI (274264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.573 V, Avg Temp: 31.5 C, Smoothed Temp: 31.6 C[0m
+[0;32mI (275094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.574 V, Avg Temp: 31.5 C, Smoothed Temp: 31.6 C[0m
+[0;32mI (275934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.573 V, Avg Temp: 31.4 C, Smoothed Temp: 31.6 C[0m
+[0;32mI (276774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.572 V, Avg Temp: 31.3 C, Smoothed Temp: 31.5 C[0m
+[0;32mI (277614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.1 C, Smoothed Temp: 31.4 C[0m
+[0;32mI (278454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.572 V, Avg Temp: 31.2 C, Smoothed Temp: 31.3 C[0m
+[0;32mI (279284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.3 C[0m
+[0;32mI (280124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.3 C[0m
+[0;32mI (280964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.572 V, Avg Temp: 31.2 C, Smoothed Temp: 31.3 C[0m
+[0;32mI (281804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.2 C[0m
+[0;32mI (282644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.2 C[0m
+[0;32mI (283474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.2 C[0m
+[0;32mI (284314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.2 C[0m
+[0;32mI (285154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.571 V, Avg Temp: 31.2 C, Smoothed Temp: 31.2 C[0m
+[0;32mI (285994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 31.0 C, Smoothed Temp: 31.1 C[0m
+[0;32mI (286824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.1 C[0m
+[0;32mI (287664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 31.0 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (288504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (289344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.0 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (290184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (291014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (291854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.1 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (292694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.1 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (293534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.1 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (294374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.1 C, Smoothed Temp: 31.1 C[0m
+[0;32mI (295204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.1 C, Smoothed Temp: 31.1 C[0m
+[0;32mI (296044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.0 C, Smoothed Temp: 31.1 C[0m
+[0;32mI (296884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.570 V, Avg Temp: 31.0 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (297724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 31.0 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (298554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (299394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 31.0 C[0m
+[0;32mI (300234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.9 C, Smoothed Temp: 30.9 C[0m
+[0;32mI (301074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.8 C, Smoothed Temp: 30.9 C[0m
+[0;32mI (301914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 30.9 C[0m
+[0;32mI (302744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 30.9 C[0m
+[0;32mI (303584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.569 V, Avg Temp: 30.9 C, Smoothed Temp: 30.9 C[0m
+[0;32mI (304424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.567 V, Avg Temp: 30.7 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (305264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.8 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (306094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.9 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (306934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.567 V, Avg Temp: 30.7 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (307774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.8 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (308614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.568 V, Avg Temp: 30.8 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (309454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.567 V, Avg Temp: 30.7 C, Smoothed Temp: 30.8 C[0m
+[0;32mI (310284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.567 V, Avg Temp: 30.7 C, Smoothed Temp: 30.7 C[0m
+[0;32mI (311124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.566 V, Avg Temp: 30.6 C, Smoothed Temp: 30.7 C[0m
+[0;32mI (311964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.6 C[0m
+[0;32mI (312804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.6 C[0m
+[0;32mI (313644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.564 V, Avg Temp: 30.4 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (314474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (315314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.4 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (316154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.564 V, Avg Temp: 30.4 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (316994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.4 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (317824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.564 V, Avg Temp: 30.4 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (318664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.3 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (319504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.3 C[0m
+[0;32mI (320344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.3 C, Smoothed Temp: 30.3 C[0m
+[0;32mI (321184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (322014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.4 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (322854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (323694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.566 V, Avg Temp: 30.6 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (324534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.5 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (325364) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.566 V, Avg Temp: 30.5 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (326204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.565 V, Avg Temp: 30.4 C, Smoothed Temp: 30.5 C[0m
+[0;32mI (327044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.564 V, Avg Temp: 30.3 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (327884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.4 C[0m
+[0;32mI (328724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.3 C[0m
+[0;32mI (329554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.3 C[0m
+[0;32mI (330394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.3 C[0m
+[0;32mI (331234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (332074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.562 V, Avg Temp: 30.1 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (332914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.562 V, Avg Temp: 30.1 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (333744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (334584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (335424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.3 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (336264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.562 V, Avg Temp: 30.1 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (337094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.563 V, Avg Temp: 30.2 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (337934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.562 V, Avg Temp: 30.1 C, Smoothed Temp: 30.2 C[0m
+[0;32mI (338774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.561 V, Avg Temp: 30.0 C, Smoothed Temp: 30.1 C[0m
+[0;32mI (339614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.561 V, Avg Temp: 30.0 C, Smoothed Temp: 30.1 C[0m
+[0;32mI (340454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.9 C, Smoothed Temp: 30.0 C[0m
+[0;32mI (341284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.561 V, Avg Temp: 29.9 C, Smoothed Temp: 30.0 C[0m
+[0;32mI (342124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.9 C, Smoothed Temp: 30.0 C[0m
+[0;32mI (342964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.561 V, Avg Temp: 29.9 C, Smoothed Temp: 30.0 C[0m
+[0;32mI (343804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.9 C, Smoothed Temp: 29.9 C[0m
+[0;32mI (344644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.8 C, Smoothed Temp: 29.9 C[0m
+[0;32mI (345474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.9 C, Smoothed Temp: 29.9 C[0m
+[0;32mI (346314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.560 V, Avg Temp: 29.8 C, Smoothed Temp: 29.9 C[0m
+[0;32mI (347154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.559 V, Avg Temp: 29.8 C, Smoothed Temp: 29.9 C[0m
+[0;32mI (347994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.559 V, Avg Temp: 29.7 C, Smoothed Temp: 29.8 C[0m
+[0;32mI (348824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.558 V, Avg Temp: 29.6 C, Smoothed Temp: 29.8 C[0m
+[0;32mI (349664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.558 V, Avg Temp: 29.7 C, Smoothed Temp: 29.7 C[0m
+[0;32mI (350504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.558 V, Avg Temp: 29.6 C, Smoothed Temp: 29.7 C[0m
+[0;32mI (351344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.557 V, Avg Temp: 29.6 C, Smoothed Temp: 29.7 C[0m
+[0;32mI (352184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.557 V, Avg Temp: 29.5 C, Smoothed Temp: 29.6 C[0m
+[0;32mI (353014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.557 V, Avg Temp: 29.5 C, Smoothed Temp: 29.6 C[0m
+[0;32mI (353854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.557 V, Avg Temp: 29.5 C, Smoothed Temp: 29.6 C[0m
+[0;32mI (354694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.556 V, Avg Temp: 29.4 C, Smoothed Temp: 29.5 C[0m
+[0;32mI (355534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.557 V, Avg Temp: 29.5 C, Smoothed Temp: 29.5 C[0m
+[0;32mI (356364) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.556 V, Avg Temp: 29.4 C, Smoothed Temp: 29.5 C[0m
+[0;32mI (357204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.555 V, Avg Temp: 29.3 C, Smoothed Temp: 29.4 C[0m
+[0;32mI (358044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.555 V, Avg Temp: 29.3 C, Smoothed Temp: 29.4 C[0m
+[0;32mI (358884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.554 V, Avg Temp: 29.2 C, Smoothed Temp: 29.3 C[0m
+[0;32mI (359724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.554 V, Avg Temp: 29.1 C, Smoothed Temp: 29.3 C[0m
+[0;32mI (360554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.554 V, Avg Temp: 29.2 C, Smoothed Temp: 29.2 C[0m
+[0;32mI (361394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.2 C[0m
+[0;32mI (362234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (363074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (363914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (364744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 29.0 C, Smoothed Temp: 29.0 C[0m
+[0;32mI (365584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.1 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (366424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.1 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (367264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.1 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (368094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.554 V, Avg Temp: 29.1 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (368934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.554 V, Avg Temp: 29.1 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (369774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (370614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.553 V, Avg Temp: 29.0 C, Smoothed Temp: 29.1 C[0m
+[0;32mI (371454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 28.9 C, Smoothed Temp: 29.0 C[0m
+[0;32mI (372284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 28.9 C, Smoothed Temp: 29.0 C[0m
+[0;32mI (373124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 28.9 C, Smoothed Temp: 29.0 C[0m
+[0;32mI (373964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 28.9 C, Smoothed Temp: 28.9 C[0m
+[0;32mI (374804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.552 V, Avg Temp: 28.9 C, Smoothed Temp: 28.9 C[0m
+[0;32mI (375644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.551 V, Avg Temp: 28.8 C, Smoothed Temp: 28.9 C[0m
+[0;32mI (376474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.6 C, Smoothed Temp: 28.8 C[0m
+[0;32mI (377314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.5 C, Smoothed Temp: 28.7 C[0m
+[0;32mI (378154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (378994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (379824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.5 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (380664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.5 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (381504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (382344) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.4 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (383184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (384014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (384854) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (385694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (386534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (387364) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (388204) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (389044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (389884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.5 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (390724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.5 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (391554) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.6 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (392394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.550 V, Avg Temp: 28.7 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (393234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.550 V, Avg Temp: 28.7 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (394074) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.550 V, Avg Temp: 28.7 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (394914) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.6 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (395744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.6 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (396584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.549 V, Avg Temp: 28.5 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (397424) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.5 C, Smoothed Temp: 28.6 C[0m
+[0;32mI (398264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.548 V, Avg Temp: 28.4 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (399094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.5 C[0m
+[0;32mI (399934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.546 V, Avg Temp: 28.3 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (400774) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.4 C[0m
+[0;32mI (401614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (402454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.546 V, Avg Temp: 28.3 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (403284) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.4 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (404124) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (404964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.547 V, Avg Temp: 28.3 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (405804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.546 V, Avg Temp: 28.2 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (406644) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.546 V, Avg Temp: 28.2 C, Smoothed Temp: 28.3 C[0m
+[0;32mI (407474) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.545 V, Avg Temp: 28.1 C, Smoothed Temp: 28.2 C[0m
+[0;32mI (408314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.545 V, Avg Temp: 28.1 C, Smoothed Temp: 28.2 C[0m
+[0;32mI (409154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.545 V, Avg Temp: 28.1 C, Smoothed Temp: 28.2 C[0m
+[0;32mI (409994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.544 V, Avg Temp: 28.0 C, Smoothed Temp: 28.1 C[0m
+[0;32mI (410824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.545 V, Avg Temp: 28.1 C, Smoothed Temp: 28.1 C[0m

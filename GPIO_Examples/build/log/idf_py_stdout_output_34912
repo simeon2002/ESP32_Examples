@@ -1,0 +1,207 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c74ch ( 51020) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c774 vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f25c vaddr=40374000 size=00dbch (  3516) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c398h (115608) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c3c0 vaddr=40374dbc size=0e8c0h ( 59584) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004ac88 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (162) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (180) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (185) app_init: ELF file SHA256:  63a150024...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AE0 len 00052C30 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (294) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (344) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.522 V, Avg Temp: 20.71 C[0m
+[0;32mI (394) Temperature Sensor: raw adc: 3213, voltage value [mV]: 2527, channel: 1, unit: 0[0m
+[0;32mI (444) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.525 V, Avg Temp: 21.18 C[0m
+[0;32mI (494) Temperature Sensor: raw adc: 3220, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (544) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (594) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.523 V, Avg Temp: 20.95 C[0m
+[0;32mI (594) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (644) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.524 V, Avg Temp: 21.06 C[0m
+[0;32mI (694) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (744) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (794) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.524 V, Avg Temp: 21.00 C[0m
+[0;32mI (794) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (844) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.523 V, Avg Temp: 20.95 C[0m
+[0;32mI (894) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (944) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.516 V, Avg Temp: 20.07 C[0m
+[0;32mI (994) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (1044) Temperature Sensor: raw adc: 3220, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (1094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.529 V, Avg Temp: 21.53 C[0m
+[0;32mI (1094) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (1144) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (1194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.525 V, Avg Temp: 21.18 C[0m
+[0;32mI (1194) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1244) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (1294) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.521 V, Avg Temp: 20.60 C[0m
+[0;32mI (1294) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (1344) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (1394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.518 V, Avg Temp: 20.31 C[0m
+[0;32mI (1394) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (1444) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.524 V, Avg Temp: 21.06 C[0m
+[0;32mI (1494) Temperature Sensor: raw adc: 3181, voltage value [mV]: 2505, channel: 1, unit: 0[0m
+[0;32mI (1544) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (1594) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.510 V, Avg Temp: 19.31 C[0m
+[0;32mI (1594) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (1644) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (1694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.521 V, Avg Temp: 20.65 C[0m
+[0;32mI (1694) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (1744) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (1794) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.520 V, Avg Temp: 20.54 C[0m
+[0;32mI (1794) Temperature Sensor: raw adc: 3219, voltage value [mV]: 2532, channel: 1, unit: 0[0m
+[0;32mI (1844) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (1894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.526 V, Avg Temp: 21.30 C[0m
+[0;32mI (1894) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (1944) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (1994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.516 V, Avg Temp: 20.13 C[0m
+[0;32mI (1994) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2044) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.519 V, Avg Temp: 20.42 C[0m
+[0;32mI (2094) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (2144) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (2194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.513 V, Avg Temp: 19.78 C[0m
+[0;32mI (2194) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2244) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (2294) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.510 V, Avg Temp: 19.43 C[0m
+[0;32mI (2294) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (2344) Temperature Sensor: raw adc: 3176, voltage value [mV]: 2502, channel: 1, unit: 0[0m
+[0;32mI (2394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.514 V, Avg Temp: 19.84 C[0m
+[0;32mI (2394) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (2444) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (2494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.526 V, Avg Temp: 21.18 C[0m
+[0;32mI (2494) Temperature Sensor: raw adc: 3177, voltage value [mV]: 2503, channel: 1, unit: 0[0m
+[0;32mI (2544) Temperature Sensor: raw adc: 3207, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (2594) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.513 V, Avg Temp: 19.78 C[0m
+[0;32mI (2594) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (2644) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (2694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.520 V, Avg Temp: 20.48 C[0m
+[0;32mI (2694) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (2744) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (2794) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.518 V, Avg Temp: 20.36 C[0m
+[0;32mI (2794) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (2844) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (2894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.513 V, Avg Temp: 19.78 C[0m
+[0;32mI (2894) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (2944) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (2994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.524 V, Avg Temp: 21.00 C[0m
+[0;32mI (2994) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (3044) Temperature Sensor: raw adc: 3223, voltage value [mV]: 2535, channel: 1, unit: 0[0m
+[0;32mI (3094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.530 V, Avg Temp: 21.70 C[0m
+[0;32mI (3094) Temperature Sensor: raw adc: 3191, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (3144) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (3194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.514 V, Avg Temp: 19.84 C[0m
+[0;32mI (3194) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (3244) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (3294) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.526 V, Avg Temp: 21.18 C[0m
+[0;32mI (3294) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3344) Temperature Sensor: raw adc: 3183, voltage value [mV]: 2507, channel: 1, unit: 0[0m
+[0;32mI (3394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.512 V, Avg Temp: 19.66 C[0m
+[0;32mI (3394) Temperature Sensor: raw adc: 3181, voltage value [mV]: 2505, channel: 1, unit: 0[0m
+[0;32mI (3444) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.510 V, Avg Temp: 19.31 C[0m
+[0;32mI (3494) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (3544) Temperature Sensor: raw adc: 3200, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (3594) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.519 V, Avg Temp: 20.48 C[0m
+[0;32mI (3594) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (3644) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.515 V, Avg Temp: 19.96 C[0m
+[0;32mI (3694) Temperature Sensor: raw adc: 3198, voltage value [mV]: 2517, channel: 1, unit: 0[0m
+[0;32mI (3744) Temperature Sensor: raw adc: 3188, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (3794) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.514 V, Avg Temp: 19.84 C[0m
+[0;32mI (3794) Temperature Sensor: raw adc: 3192, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3844) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (3894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.517 V, Avg Temp: 20.25 C[0m
+[0;32mI (3894) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (3944) Temperature Sensor: raw adc: 3221, voltage value [mV]: 2533, channel: 1, unit: 0[0m
+[0;32mI (3994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.523 V, Avg Temp: 20.95 C[0m
+[0;32mI (3994) Temperature Sensor: raw adc: 3205, voltage value [mV]: 2521, channel: 1, unit: 0[0m
+[0;32mI (4044) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (4094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.519 V, Avg Temp: 20.48 C[0m
+[0;32mI (4094) Temperature Sensor: raw adc: 3216, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (4144) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (4194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.528 V, Avg Temp: 21.41 C[0m
+[0;32mI (4194) Temperature Sensor: raw adc: 3196, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4244) Temperature Sensor: raw adc: 3190, voltage value [mV]: 2512, channel: 1, unit: 0[0m
+[0;32mI (4294) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.514 V, Avg Temp: 19.84 C[0m
+[0;32mI (4294) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4344) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (4394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.517 V, Avg Temp: 20.19 C[0m
+[0;32mI (4394) Temperature Sensor: raw adc: 3189, voltage value [mV]: 2511, channel: 1, unit: 0[0m
+[0;32mI (4444) Temperature Sensor: raw adc: 3195, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (4494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.512 V, Avg Temp: 19.66 C[0m
+[0;32mI (4494) Temperature Sensor: raw adc: 3197, voltage value [mV]: 2516, channel: 1, unit: 0[0m
+[0;32mI (4544) Temperature Sensor: raw adc: 3199, voltage value [mV]: 2518, channel: 1, unit: 0[0m
+[0;32mI (4594) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.517 V, Avg Temp: 20.19 C[0m
+[0;32mI (4594) Temperature Sensor: raw adc: 3215, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (4644) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (4694) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.527 V, Avg Temp: 21.35 C[0m
+[0;32mI (4694) Temperature Sensor: raw adc: 3208, voltage value [mV]: 2524, channel: 1, unit: 0[0m
+[0;32mI (4744) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (4794) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.524 V, Avg Temp: 21.06 C[0m
+[0;32mI (4794) Temperature Sensor: raw adc: 3179, voltage value [mV]: 2503, channel: 1, unit: 0[0m
+[0;32mI (4844) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (4894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.514 V, Avg Temp: 19.84 C[0m
+[0;32mI (4894) Temperature Sensor: raw adc: 3216, voltage value [mV]: 2530, channel: 1, unit: 0[0m
+[0;32mI (4944) Temperature Sensor: raw adc: 3210, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (4994) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.528 V, Avg Temp: 21.41 C[0m
+[0;32mI (4994) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (5044) Temperature Sensor: raw adc: 3193, voltage value [mV]: 2514, channel: 1, unit: 0[0m
+[0;32mI (5094) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.520 V, Avg Temp: 20.54 C[0m
+[0;32mI (5094) Temperature Sensor: raw adc: 3209, voltage value [mV]: 2525, channel: 1, unit: 0[0m
+[0;32mI (5144) Temperature Sensor: raw adc: 3211, voltage value [mV]: 2526, channel: 1, unit: 0[0m
+[0;32mI (5194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.526 V, Avg Temp: 21.18 C[0m
+[0;32mI (5194) Temperature Sensor: raw adc: 3179, voltage value [mV]: 2503, channel: 1, unit: 0[0m

@@ -1,0 +1,616 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (27) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Apr 18 2025 01:13:45[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (30) boot: efuse block revision: v1.3[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c72ch ( 50988) map[0m
+[0;32mI (98) esp_image: segment 1: paddr=0001c754 vaddr=3fc93700 size=02ae0h ( 10976) load[0m
+[0;32mI (100) esp_image: segment 2: paddr=0001f23c vaddr=40374000 size=00ddch (  3548) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1c3d8h (115672) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0003c400 vaddr=40374ddc size=0e8a0h ( 59552) load[0m
+[0;32mI (145) esp_image: segment 5: paddr=0004aca8 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (151) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (151) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Multicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (172) app_init: Application information:[0m
+[0;32mI (172) app_init: Project name:     GPIO_Example[0m
+[0;32mI (176) app_init: App version:      ce7ed68-dirty[0m
+[0;32mI (181) app_init: Compile time:     Apr 19 2025 02:27:40[0m
+[0;32mI (186) app_init: ELF file SHA256:  83552b044...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 3FC96AE8 len 00052C28 (331 KiB): RAM[0m
+[0;32mI (217) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (222) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (227) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (234) spi_flash: detected chip: gd[0m
+[0;32mI (236) spi_flash: flash io: dio[0m
+[0;33mW (239) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (252) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (258) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (704) Temperature Sensor: Frame number: 0[0m
+[0;32mI (1124) Temperature Sensor: Frame number: 1[0m
+[0;32mI (1544) Temperature Sensor: Frame number: 2[0m
+[0;32mI (1964) Temperature Sensor: Frame number: 3[0m
+[0;32mI (2384) Temperature Sensor: Frame number: 4[0m
+[0;32mI (2804) Temperature Sensor: Frame number: 5[0m
+[0;32mI (3224) Temperature Sensor: Frame number: 6[0m
+[0;32mI (3634) Temperature Sensor: Frame number: 7[0m
+[0;32mI (4054) Temperature Sensor: Frame number: 8[0m
+[0;32mI (4474) Temperature Sensor: Frame number: 9[0m
+[0;32mI (4894) Temperature Sensor: Frame number: 10[0m
+[0;32mI (4894) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.65 C[0m
+[0;32mI (5314) Temperature Sensor: Frame number: 0[0m
+[0;32mI (5734) Temperature Sensor: Frame number: 1[0m
+[0;32mI (6154) Temperature Sensor: Frame number: 2[0m
+[0;32mI (6574) Temperature Sensor: Frame number: 3[0m
+[0;32mI (6994) Temperature Sensor: Frame number: 4[0m
+[0;32mI (7404) Temperature Sensor: Frame number: 5[0m
+[0;32mI (7824) Temperature Sensor: Frame number: 6[0m
+[0;32mI (8244) Temperature Sensor: Frame number: 7[0m
+[0;32mI (8664) Temperature Sensor: Frame number: 8[0m
+[0;32mI (9084) Temperature Sensor: Frame number: 9[0m
+[0;32mI (9504) Temperature Sensor: Frame number: 10[0m
+[0;32mI (9504) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.61 C[0m
+[0;32mI (9924) Temperature Sensor: Frame number: 0[0m
+[0;32mI (10344) Temperature Sensor: Frame number: 1[0m
+[0;32mI (10764) Temperature Sensor: Frame number: 2[0m
+[0;32mI (11174) Temperature Sensor: Frame number: 3[0m
+[0;32mI (11594) Temperature Sensor: Frame number: 4[0m
+[0;32mI (12014) Temperature Sensor: Frame number: 5[0m
+[0;32mI (12434) Temperature Sensor: Frame number: 6[0m
+[0;32mI (12854) Temperature Sensor: Frame number: 7[0m
+[0;32mI (13274) Temperature Sensor: Frame number: 8[0m
+[0;32mI (13694) Temperature Sensor: Frame number: 9[0m
+[0;32mI (14114) Temperature Sensor: Frame number: 10[0m
+[0;32mI (14114) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.63 C[0m
+[0;32mI (14534) Temperature Sensor: Frame number: 0[0m
+[0;32mI (14954) Temperature Sensor: Frame number: 1[0m
+[0;32mI (15364) Temperature Sensor: Frame number: 2[0m
+[0;32mI (15784) Temperature Sensor: Frame number: 3[0m
+[0;32mI (16204) Temperature Sensor: Frame number: 4[0m
+[0;32mI (16624) Temperature Sensor: Frame number: 5[0m
+[0;32mI (17044) Temperature Sensor: Frame number: 6[0m
+[0;32mI (17464) Temperature Sensor: Frame number: 7[0m
+[0;32mI (17884) Temperature Sensor: Frame number: 8[0m
+[0;32mI (18304) Temperature Sensor: Frame number: 9[0m
+[0;32mI (18724) Temperature Sensor: Frame number: 10[0m
+[0;32mI (18724) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.74 C[0m
+[0;32mI (19134) Temperature Sensor: Frame number: 0[0m
+[0;32mI (19554) Temperature Sensor: Frame number: 1[0m
+[0;32mI (19974) Temperature Sensor: Frame number: 2[0m
+[0;32mI (20394) Temperature Sensor: Frame number: 3[0m
+[0;32mI (20814) Temperature Sensor: Frame number: 4[0m
+[0;32mI (21234) Temperature Sensor: Frame number: 5[0m
+[0;32mI (21654) Temperature Sensor: Frame number: 6[0m
+[0;32mI (22074) Temperature Sensor: Frame number: 7[0m
+[0;32mI (22494) Temperature Sensor: Frame number: 8[0m
+[0;32mI (22904) Temperature Sensor: Frame number: 9[0m
+[0;32mI (23324) Temperature Sensor: Frame number: 10[0m
+[0;32mI (23324) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.55 C[0m
+[0;32mI (23744) Temperature Sensor: Frame number: 0[0m
+[0;32mI (24164) Temperature Sensor: Frame number: 1[0m
+[0;32mI (24584) Temperature Sensor: Frame number: 2[0m
+[0;32mI (25004) Temperature Sensor: Frame number: 3[0m
+[0;32mI (25424) Temperature Sensor: Frame number: 4[0m
+[0;32mI (25844) Temperature Sensor: Frame number: 5[0m
+[0;32mI (26264) Temperature Sensor: Frame number: 6[0m
+[0;32mI (26674) Temperature Sensor: Frame number: 7[0m
+[0;32mI (27094) Temperature Sensor: Frame number: 8[0m
+[0;32mI (27514) Temperature Sensor: Frame number: 9[0m
+[0;32mI (27934) Temperature Sensor: Frame number: 10[0m
+[0;32mI (27934) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.61 C[0m
+[0;32mI (28354) Temperature Sensor: Frame number: 0[0m
+[0;32mI (28774) Temperature Sensor: Frame number: 1[0m
+[0;32mI (29194) Temperature Sensor: Frame number: 2[0m
+[0;32mI (29614) Temperature Sensor: Frame number: 3[0m
+[0;32mI (30034) Temperature Sensor: Frame number: 4[0m
+[0;32mI (30454) Temperature Sensor: Frame number: 5[0m
+[0;32mI (30864) Temperature Sensor: Frame number: 6[0m
+[0;32mI (31284) Temperature Sensor: Frame number: 7[0m
+[0;32mI (31704) Temperature Sensor: Frame number: 8[0m
+[0;32mI (32124) Temperature Sensor: Frame number: 9[0m
+[0;32mI (32544) Temperature Sensor: Frame number: 10[0m
+[0;32mI (32544) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.64 C[0m
+[0;32mI (32964) Temperature Sensor: Frame number: 0[0m
+[0;32mI (33384) Temperature Sensor: Frame number: 1[0m
+[0;32mI (33804) Temperature Sensor: Frame number: 2[0m
+[0;32mI (34224) Temperature Sensor: Frame number: 3[0m
+[0;32mI (34634) Temperature Sensor: Frame number: 4[0m
+[0;32mI (35054) Temperature Sensor: Frame number: 5[0m
+[0;32mI (35474) Temperature Sensor: Frame number: 6[0m
+[0;32mI (35894) Temperature Sensor: Frame number: 7[0m
+[0;32mI (36314) Temperature Sensor: Frame number: 8[0m
+[0;32mI (36734) Temperature Sensor: Frame number: 9[0m
+[0;32mI (37154) Temperature Sensor: Frame number: 10[0m
+[0;32mI (37154) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.78 C[0m
+[0;32mI (37574) Temperature Sensor: Frame number: 0[0m
+[0;32mI (37994) Temperature Sensor: Frame number: 1[0m
+[0;32mI (38404) Temperature Sensor: Frame number: 2[0m
+[0;32mI (38824) Temperature Sensor: Frame number: 3[0m
+[0;32mI (39244) Temperature Sensor: Frame number: 4[0m
+[0;32mI (39664) Temperature Sensor: Frame number: 5[0m
+[0;32mI (40084) Temperature Sensor: Frame number: 6[0m
+[0;32mI (40504) Temperature Sensor: Frame number: 7[0m
+[0;32mI (40924) Temperature Sensor: Frame number: 8[0m
+[0;32mI (41344) Temperature Sensor: Frame number: 9[0m
+[0;32mI (41764) Temperature Sensor: Frame number: 10[0m
+[0;32mI (41764) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.87 C[0m
+[0;32mI (42174) Temperature Sensor: Frame number: 0[0m
+[0;32mI (42594) Temperature Sensor: Frame number: 1[0m
+[0;32mI (43014) Temperature Sensor: Frame number: 2[0m
+[0;32mI (43434) Temperature Sensor: Frame number: 3[0m
+[0;32mI (43854) Temperature Sensor: Frame number: 4[0m
+[0;32mI (44274) Temperature Sensor: Frame number: 5[0m
+[0;32mI (44694) Temperature Sensor: Frame number: 6[0m
+[0;32mI (45114) Temperature Sensor: Frame number: 7[0m
+[0;32mI (45534) Temperature Sensor: Frame number: 8[0m
+[0;32mI (45954) Temperature Sensor: Frame number: 9[0m
+[0;32mI (46364) Temperature Sensor: Frame number: 10[0m
+[0;32mI (46374) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.88 C[0m
+[0;32mI (46784) Temperature Sensor: Frame number: 0[0m
+[0;32mI (47204) Temperature Sensor: Frame number: 1[0m
+[0;32mI (47624) Temperature Sensor: Frame number: 2[0m
+[0;32mI (48044) Temperature Sensor: Frame number: 3[0m
+[0;32mI (48464) Temperature Sensor: Frame number: 4[0m
+[0;32mI (48884) Temperature Sensor: Frame number: 5[0m
+[0;32mI (49304) Temperature Sensor: Frame number: 6[0m
+[0;32mI (49724) Temperature Sensor: Frame number: 7[0m
+[0;32mI (50134) Temperature Sensor: Frame number: 8[0m
+[0;32mI (50554) Temperature Sensor: Frame number: 9[0m
+[0;32mI (50974) Temperature Sensor: Frame number: 10[0m
+[0;32mI (50974) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.72 C[0m
+[0;32mI (51394) Temperature Sensor: Frame number: 0[0m
+[0;32mI (51814) Temperature Sensor: Frame number: 1[0m
+[0;32mI (52234) Temperature Sensor: Frame number: 2[0m
+[0;32mI (52654) Temperature Sensor: Frame number: 3[0m
+[0;32mI (53074) Temperature Sensor: Frame number: 4[0m
+[0;32mI (53494) Temperature Sensor: Frame number: 5[0m
+[0;32mI (53904) Temperature Sensor: Frame number: 6[0m
+[0;32mI (54324) Temperature Sensor: Frame number: 7[0m
+[0;32mI (54744) Temperature Sensor: Frame number: 8[0m
+[0;32mI (55164) Temperature Sensor: Frame number: 9[0m
+[0;32mI (55584) Temperature Sensor: Frame number: 10[0m
+[0;32mI (55584) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.63 C[0m
+[0;32mI (56004) Temperature Sensor: Frame number: 0[0m
+[0;32mI (56424) Temperature Sensor: Frame number: 1[0m
+[0;32mI (56844) Temperature Sensor: Frame number: 2[0m
+[0;32mI (57264) Temperature Sensor: Frame number: 3[0m
+[0;32mI (57674) Temperature Sensor: Frame number: 4[0m
+[0;32mI (58094) Temperature Sensor: Frame number: 5[0m
+[0;32mI (58514) Temperature Sensor: Frame number: 6[0m
+[0;32mI (58934) Temperature Sensor: Frame number: 7[0m
+[0;32mI (59354) Temperature Sensor: Frame number: 8[0m
+[0;32mI (59774) Temperature Sensor: Frame number: 9[0m
+[0;32mI (60194) Temperature Sensor: Frame number: 10[0m
+[0;32mI (60194) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.59 C[0m
+[0;32mI (60614) Temperature Sensor: Frame number: 0[0m
+[0;32mI (61034) Temperature Sensor: Frame number: 1[0m
+[0;32mI (61454) Temperature Sensor: Frame number: 2[0m
+[0;32mI (61864) Temperature Sensor: Frame number: 3[0m
+[0;32mI (62284) Temperature Sensor: Frame number: 4[0m
+[0;32mI (62704) Temperature Sensor: Frame number: 5[0m
+[0;32mI (63124) Temperature Sensor: Frame number: 6[0m
+[0;32mI (63544) Temperature Sensor: Frame number: 7[0m
+[0;32mI (63964) Temperature Sensor: Frame number: 8[0m
+[0;32mI (64384) Temperature Sensor: Frame number: 9[0m
+[0;32mI (64804) Temperature Sensor: Frame number: 10[0m
+[0;32mI (64804) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.55 C[0m
+[0;32mI (65224) Temperature Sensor: Frame number: 0[0m
+[0;32mI (65634) Temperature Sensor: Frame number: 1[0m
+[0;32mI (66054) Temperature Sensor: Frame number: 2[0m
+[0;32mI (66474) Temperature Sensor: Frame number: 3[0m
+[0;32mI (66894) Temperature Sensor: Frame number: 4[0m
+[0;32mI (67314) Temperature Sensor: Frame number: 5[0m
+[0;32mI (67734) Temperature Sensor: Frame number: 6[0m
+[0;32mI (68154) Temperature Sensor: Frame number: 7[0m
+[0;32mI (68574) Temperature Sensor: Frame number: 8[0m
+[0;32mI (68994) Temperature Sensor: Frame number: 9[0m
+[0;32mI (69404) Temperature Sensor: Frame number: 10[0m
+[0;32mI (69414) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.58 C[0m
+[0;32mI (69824) Temperature Sensor: Frame number: 0[0m
+[0;32mI (70244) Temperature Sensor: Frame number: 1[0m
+[0;32mI (70664) Temperature Sensor: Frame number: 2[0m
+[0;32mI (71084) Temperature Sensor: Frame number: 3[0m
+[0;32mI (71504) Temperature Sensor: Frame number: 4[0m
+[0;32mI (71924) Temperature Sensor: Frame number: 5[0m
+[0;32mI (72344) Temperature Sensor: Frame number: 6[0m
+[0;32mI (72764) Temperature Sensor: Frame number: 7[0m
+[0;32mI (73174) Temperature Sensor: Frame number: 8[0m
+[0;32mI (73594) Temperature Sensor: Frame number: 9[0m
+[0;32mI (74014) Temperature Sensor: Frame number: 10[0m
+[0;32mI (74014) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.58 C[0m
+[0;32mI (74434) Temperature Sensor: Frame number: 0[0m
+[0;32mI (74854) Temperature Sensor: Frame number: 1[0m
+[0;32mI (75274) Temperature Sensor: Frame number: 2[0m
+[0;32mI (75694) Temperature Sensor: Frame number: 3[0m
+[0;32mI (76114) Temperature Sensor: Frame number: 4[0m
+[0;32mI (76534) Temperature Sensor: Frame number: 5[0m
+[0;32mI (76954) Temperature Sensor: Frame number: 6[0m
+[0;32mI (77364) Temperature Sensor: Frame number: 7[0m
+[0;32mI (77784) Temperature Sensor: Frame number: 8[0m
+[0;32mI (78204) Temperature Sensor: Frame number: 9[0m
+[0;32mI (78624) Temperature Sensor: Frame number: 10[0m
+[0;32mI (78624) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.74 C[0m
+[0;32mI (79044) Temperature Sensor: Frame number: 0[0m
+[0;32mI (79464) Temperature Sensor: Frame number: 1[0m
+[0;32mI (79884) Temperature Sensor: Frame number: 2[0m
+[0;32mI (80304) Temperature Sensor: Frame number: 3[0m
+[0;32mI (80724) Temperature Sensor: Frame number: 4[0m
+[0;32mI (81134) Temperature Sensor: Frame number: 5[0m
+[0;32mI (81554) Temperature Sensor: Frame number: 6[0m
+[0;32mI (81974) Temperature Sensor: Frame number: 7[0m
+[0;32mI (82394) Temperature Sensor: Frame number: 8[0m
+[0;32mI (82814) Temperature Sensor: Frame number: 9[0m
+[0;32mI (83234) Temperature Sensor: Frame number: 10[0m
+[0;32mI (83234) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.70 C[0m
+[0;32mI (83654) Temperature Sensor: Frame number: 0[0m
+[0;32mI (84074) Temperature Sensor: Frame number: 1[0m
+[0;32mI (84494) Temperature Sensor: Frame number: 2[0m
+[0;32mI (84904) Temperature Sensor: Frame number: 3[0m
+[0;32mI (85324) Temperature Sensor: Frame number: 4[0m
+[0;32mI (85744) Temperature Sensor: Frame number: 5[0m
+[0;32mI (86164) Temperature Sensor: Frame number: 6[0m
+[0;32mI (86584) Temperature Sensor: Frame number: 7[0m
+[0;32mI (87004) Temperature Sensor: Frame number: 8[0m
+[0;32mI (87424) Temperature Sensor: Frame number: 9[0m
+[0;32mI (87844) Temperature Sensor: Frame number: 10[0m
+[0;32mI (87844) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.77 C[0m
+[0;32mI (88264) Temperature Sensor: Frame number: 0[0m
+[0;32mI (88674) Temperature Sensor: Frame number: 1[0m
+[0;32mI (89094) Temperature Sensor: Frame number: 2[0m
+[0;32mI (89514) Temperature Sensor: Frame number: 3[0m
+[0;32mI (89934) Temperature Sensor: Frame number: 4[0m
+[0;32mI (90354) Temperature Sensor: Frame number: 5[0m
+[0;32mI (90774) Temperature Sensor: Frame number: 6[0m
+[0;32mI (91194) Temperature Sensor: Frame number: 7[0m
+[0;32mI (91614) Temperature Sensor: Frame number: 8[0m
+[0;32mI (92034) Temperature Sensor: Frame number: 9[0m
+[0;32mI (92454) Temperature Sensor: Frame number: 10[0m
+[0;32mI (92454) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.86 C[0m
+[0;32mI (92864) Temperature Sensor: Frame number: 0[0m
+[0;32mI (93284) Temperature Sensor: Frame number: 1[0m
+[0;32mI (93704) Temperature Sensor: Frame number: 2[0m
+[0;32mI (94124) Temperature Sensor: Frame number: 3[0m
+[0;32mI (94544) Temperature Sensor: Frame number: 4[0m
+[0;32mI (94964) Temperature Sensor: Frame number: 5[0m
+[0;32mI (95384) Temperature Sensor: Frame number: 6[0m
+[0;32mI (95804) Temperature Sensor: Frame number: 7[0m
+[0;32mI (96224) Temperature Sensor: Frame number: 8[0m
+[0;32mI (96634) Temperature Sensor: Frame number: 9[0m
+[0;32mI (97054) Temperature Sensor: Frame number: 10[0m
+[0;32mI (97054) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.80 C[0m
+[0;32mI (97474) Temperature Sensor: Frame number: 0[0m
+[0;32mI (97894) Temperature Sensor: Frame number: 1[0m
+[0;32mI (98314) Temperature Sensor: Frame number: 2[0m
+[0;32mI (98734) Temperature Sensor: Frame number: 3[0m
+[0;32mI (99154) Temperature Sensor: Frame number: 4[0m
+[0;32mI (99574) Temperature Sensor: Frame number: 5[0m
+[0;32mI (99994) Temperature Sensor: Frame number: 6[0m
+[0;32mI (100404) Temperature Sensor: Frame number: 7[0m
+[0;32mI (100824) Temperature Sensor: Frame number: 8[0m
+[0;32mI (101244) Temperature Sensor: Frame number: 9[0m
+[0;32mI (101664) Temperature Sensor: Frame number: 10[0m
+[0;32mI (101664) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.81 C[0m
+[0;32mI (102084) Temperature Sensor: Frame number: 0[0m
+[0;32mI (102504) Temperature Sensor: Frame number: 1[0m
+[0;32mI (102924) Temperature Sensor: Frame number: 2[0m
+[0;32mI (103344) Temperature Sensor: Frame number: 3[0m
+[0;32mI (103764) Temperature Sensor: Frame number: 4[0m
+[0;32mI (104174) Temperature Sensor: Frame number: 5[0m
+[0;32mI (104594) Temperature Sensor: Frame number: 6[0m
+[0;32mI (105014) Temperature Sensor: Frame number: 7[0m
+[0;32mI (105434) Temperature Sensor: Frame number: 8[0m
+[0;32mI (105854) Temperature Sensor: Frame number: 9[0m
+[0;32mI (106274) Temperature Sensor: Frame number: 10[0m
+[0;32mI (106274) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.82 C[0m
+[0;32mI (106694) Temperature Sensor: Frame number: 0[0m
+[0;32mI (107114) Temperature Sensor: Frame number: 1[0m
+[0;32mI (107534) Temperature Sensor: Frame number: 2[0m
+[0;32mI (107954) Temperature Sensor: Frame number: 3[0m
+[0;32mI (108364) Temperature Sensor: Frame number: 4[0m
+[0;32mI (108784) Temperature Sensor: Frame number: 5[0m
+[0;32mI (109204) Temperature Sensor: Frame number: 6[0m
+[0;32mI (109624) Temperature Sensor: Frame number: 7[0m
+[0;32mI (110044) Temperature Sensor: Frame number: 8[0m
+[0;32mI (110464) Temperature Sensor: Frame number: 9[0m
+[0;32mI (110884) Temperature Sensor: Frame number: 10[0m
+[0;32mI (110884) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.69 C[0m
+[0;32mI (111304) Temperature Sensor: Frame number: 0[0m
+[0;32mI (111724) Temperature Sensor: Frame number: 1[0m
+[0;32mI (112134) Temperature Sensor: Frame number: 2[0m
+[0;32mI (112554) Temperature Sensor: Frame number: 3[0m
+[0;32mI (112974) Temperature Sensor: Frame number: 4[0m
+[0;32mI (113394) Temperature Sensor: Frame number: 5[0m
+[0;32mI (113814) Temperature Sensor: Frame number: 6[0m
+[0;32mI (114234) Temperature Sensor: Frame number: 7[0m
+[0;32mI (114654) Temperature Sensor: Frame number: 8[0m
+[0;32mI (115074) Temperature Sensor: Frame number: 9[0m
+[0;32mI (115494) Temperature Sensor: Frame number: 10[0m
+[0;32mI (115494) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.73 C[0m
+[0;32mI (115904) Temperature Sensor: Frame number: 0[0m
+[0;32mI (116324) Temperature Sensor: Frame number: 1[0m
+[0;32mI (116744) Temperature Sensor: Frame number: 2[0m
+[0;32mI (117164) Temperature Sensor: Frame number: 3[0m
+[0;32mI (117584) Temperature Sensor: Frame number: 4[0m
+[0;32mI (118004) Temperature Sensor: Frame number: 5[0m
+[0;32mI (118424) Temperature Sensor: Frame number: 6[0m
+[0;32mI (118844) Temperature Sensor: Frame number: 7[0m
+[0;32mI (119264) Temperature Sensor: Frame number: 8[0m
+[0;32mI (119674) Temperature Sensor: Frame number: 9[0m
+[0;32mI (120094) Temperature Sensor: Frame number: 10[0m
+[0;32mI (120104) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.70 C[0m
+[0;32mI (120514) Temperature Sensor: Frame number: 0[0m
+[0;32mI (120934) Temperature Sensor: Frame number: 1[0m
+[0;32mI (121354) Temperature Sensor: Frame number: 2[0m
+[0;32mI (121774) Temperature Sensor: Frame number: 3[0m
+[0;32mI (122194) Temperature Sensor: Frame number: 4[0m
+[0;32mI (122614) Temperature Sensor: Frame number: 5[0m
+[0;32mI (123034) Temperature Sensor: Frame number: 6[0m
+[0;32mI (123454) Temperature Sensor: Frame number: 7[0m
+[0;32mI (123864) Temperature Sensor: Frame number: 8[0m
+[0;32mI (124284) Temperature Sensor: Frame number: 9[0m
+[0;32mI (124704) Temperature Sensor: Frame number: 10[0m
+[0;32mI (124704) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.68 C[0m
+[0;32mI (125124) Temperature Sensor: Frame number: 0[0m
+[0;32mI (125544) Temperature Sensor: Frame number: 1[0m
+[0;32mI (125964) Temperature Sensor: Frame number: 2[0m
+[0;32mI (126384) Temperature Sensor: Frame number: 3[0m
+[0;32mI (126804) Temperature Sensor: Frame number: 4[0m
+[0;32mI (127224) Temperature Sensor: Frame number: 5[0m
+[0;32mI (127634) Temperature Sensor: Frame number: 6[0m
+[0;32mI (128054) Temperature Sensor: Frame number: 7[0m
+[0;32mI (128474) Temperature Sensor: Frame number: 8[0m
+[0;32mI (128894) Temperature Sensor: Frame number: 9[0m
+[0;32mI (129314) Temperature Sensor: Frame number: 10[0m
+[0;32mI (129314) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.60 C[0m
+[0;32mI (129734) Temperature Sensor: Frame number: 0[0m
+[0;32mI (130154) Temperature Sensor: Frame number: 1[0m
+[0;32mI (130574) Temperature Sensor: Frame number: 2[0m
+[0;32mI (130994) Temperature Sensor: Frame number: 3[0m
+[0;32mI (131404) Temperature Sensor: Frame number: 4[0m
+[0;32mI (131824) Temperature Sensor: Frame number: 5[0m
+[0;32mI (132244) Temperature Sensor: Frame number: 6[0m
+[0;32mI (132664) Temperature Sensor: Frame number: 7[0m
+[0;32mI (133084) Temperature Sensor: Frame number: 8[0m
+[0;32mI (133504) Temperature Sensor: Frame number: 9[0m
+[0;32mI (133924) Temperature Sensor: Frame number: 10[0m
+[0;32mI (133924) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.67 C[0m
+[0;32mI (134344) Temperature Sensor: Frame number: 0[0m
+[0;32mI (134764) Temperature Sensor: Frame number: 1[0m
+[0;32mI (135174) Temperature Sensor: Frame number: 2[0m
+[0;32mI (135594) Temperature Sensor: Frame number: 3[0m
+[0;32mI (136014) Temperature Sensor: Frame number: 4[0m
+[0;32mI (136434) Temperature Sensor: Frame number: 5[0m
+[0;32mI (136854) Temperature Sensor: Frame number: 6[0m
+[0;32mI (137274) Temperature Sensor: Frame number: 7[0m
+[0;32mI (137694) Temperature Sensor: Frame number: 8[0m
+[0;32mI (138114) Temperature Sensor: Frame number: 9[0m
+[0;32mI (138534) Temperature Sensor: Frame number: 10[0m
+[0;32mI (138534) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.71 C[0m
+[0;32mI (138954) Temperature Sensor: Frame number: 0[0m
+[0;32mI (139364) Temperature Sensor: Frame number: 1[0m
+[0;32mI (139784) Temperature Sensor: Frame number: 2[0m
+[0;32mI (140204) Temperature Sensor: Frame number: 3[0m
+[0;32mI (140624) Temperature Sensor: Frame number: 4[0m
+[0;32mI (141044) Temperature Sensor: Frame number: 5[0m
+[0;32mI (141464) Temperature Sensor: Frame number: 6[0m
+[0;32mI (141884) Temperature Sensor: Frame number: 7[0m
+[0;32mI (142304) Temperature Sensor: Frame number: 8[0m
+[0;32mI (142724) Temperature Sensor: Frame number: 9[0m
+[0;32mI (143134) Temperature Sensor: Frame number: 10[0m
+[0;32mI (143144) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.69 C[0m
+[0;32mI (143554) Temperature Sensor: Frame number: 0[0m
+[0;32mI (143974) Temperature Sensor: Frame number: 1[0m
+[0;32mI (144394) Temperature Sensor: Frame number: 2[0m
+[0;32mI (144814) Temperature Sensor: Frame number: 3[0m
+[0;32mI (145234) Temperature Sensor: Frame number: 4[0m
+[0;32mI (145654) Temperature Sensor: Frame number: 5[0m
+[0;32mI (146074) Temperature Sensor: Frame number: 6[0m
+[0;32mI (146494) Temperature Sensor: Frame number: 7[0m
+[0;32mI (146904) Temperature Sensor: Frame number: 8[0m
+[0;32mI (147324) Temperature Sensor: Frame number: 9[0m
+[0;32mI (147744) Temperature Sensor: Frame number: 10[0m
+[0;32mI (147744) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.68 C[0m
+[0;32mI (148164) Temperature Sensor: Frame number: 0[0m
+[0;32mI (148584) Temperature Sensor: Frame number: 1[0m
+[0;32mI (149004) Temperature Sensor: Frame number: 2[0m
+[0;32mI (149424) Temperature Sensor: Frame number: 3[0m
+[0;32mI (149844) Temperature Sensor: Frame number: 4[0m
+[0;32mI (150264) Temperature Sensor: Frame number: 5[0m
+[0;32mI (150674) Temperature Sensor: Frame number: 6[0m
+[0;32mI (151094) Temperature Sensor: Frame number: 7[0m
+[0;32mI (151514) Temperature Sensor: Frame number: 8[0m
+[0;32mI (151934) Temperature Sensor: Frame number: 9[0m
+[0;32mI (152354) Temperature Sensor: Frame number: 10[0m
+[0;32mI (152354) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.69 C[0m
+[0;32mI (152774) Temperature Sensor: Frame number: 0[0m
+[0;32mI (153194) Temperature Sensor: Frame number: 1[0m
+[0;32mI (153614) Temperature Sensor: Frame number: 2[0m
+[0;32mI (154034) Temperature Sensor: Frame number: 3[0m
+[0;32mI (154454) Temperature Sensor: Frame number: 4[0m
+[0;32mI (154864) Temperature Sensor: Frame number: 5[0m
+[0;32mI (155284) Temperature Sensor: Frame number: 6[0m
+[0;32mI (155704) Temperature Sensor: Frame number: 7[0m
+[0;32mI (156124) Temperature Sensor: Frame number: 8[0m
+[0;32mI (156544) Temperature Sensor: Frame number: 9[0m
+[0;32mI (156964) Temperature Sensor: Frame number: 10[0m
+[0;32mI (156964) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.61 C[0m
+[0;32mI (157384) Temperature Sensor: Frame number: 0[0m
+[0;32mI (157804) Temperature Sensor: Frame number: 1[0m
+[0;32mI (158224) Temperature Sensor: Frame number: 2[0m
+[0;32mI (158634) Temperature Sensor: Frame number: 3[0m
+[0;32mI (159054) Temperature Sensor: Frame number: 4[0m
+[0;32mI (159474) Temperature Sensor: Frame number: 5[0m
+[0;32mI (159894) Temperature Sensor: Frame number: 6[0m
+[0;32mI (160314) Temperature Sensor: Frame number: 7[0m
+[0;32mI (160734) Temperature Sensor: Frame number: 8[0m
+[0;32mI (161154) Temperature Sensor: Frame number: 9[0m
+[0;32mI (161574) Temperature Sensor: Frame number: 10[0m
+[0;32mI (161574) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.65 C[0m
+[0;32mI (161994) Temperature Sensor: Frame number: 0[0m
+[0;32mI (162404) Temperature Sensor: Frame number: 1[0m
+[0;32mI (162824) Temperature Sensor: Frame number: 2[0m
+[0;32mI (163244) Temperature Sensor: Frame number: 3[0m
+[0;32mI (163664) Temperature Sensor: Frame number: 4[0m
+[0;32mI (164084) Temperature Sensor: Frame number: 5[0m
+[0;32mI (164504) Temperature Sensor: Frame number: 6[0m
+[0;32mI (164924) Temperature Sensor: Frame number: 7[0m
+[0;32mI (165344) Temperature Sensor: Frame number: 8[0m
+[0;32mI (165764) Temperature Sensor: Frame number: 9[0m
+[0;32mI (166174) Temperature Sensor: Frame number: 10[0m
+[0;32mI (166184) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.67 C[0m
+[0;32mI (166594) Temperature Sensor: Frame number: 0[0m
+[0;32mI (167014) Temperature Sensor: Frame number: 1[0m
+[0;32mI (167434) Temperature Sensor: Frame number: 2[0m
+[0;32mI (167854) Temperature Sensor: Frame number: 3[0m
+[0;32mI (168274) Temperature Sensor: Frame number: 4[0m
+[0;32mI (168694) Temperature Sensor: Frame number: 5[0m
+[0;32mI (169114) Temperature Sensor: Frame number: 6[0m
+[0;32mI (169534) Temperature Sensor: Frame number: 7[0m
+[0;32mI (169954) Temperature Sensor: Frame number: 8[0m
+[0;32mI (170364) Temperature Sensor: Frame number: 9[0m
+[0;32mI (170784) Temperature Sensor: Frame number: 10[0m
+[0;32mI (170784) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.66 C[0m
+[0;32mI (171204) Temperature Sensor: Frame number: 0[0m
+[0;32mI (171624) Temperature Sensor: Frame number: 1[0m
+[0;32mI (172044) Temperature Sensor: Frame number: 2[0m
+[0;32mI (172464) Temperature Sensor: Frame number: 3[0m
+[0;32mI (172884) Temperature Sensor: Frame number: 4[0m
+[0;32mI (173304) Temperature Sensor: Frame number: 5[0m
+[0;32mI (173724) Temperature Sensor: Frame number: 6[0m
+[0;32mI (174134) Temperature Sensor: Frame number: 7[0m
+[0;32mI (174554) Temperature Sensor: Frame number: 8[0m
+[0;32mI (174974) Temperature Sensor: Frame number: 9[0m
+[0;32mI (175394) Temperature Sensor: Frame number: 10[0m
+[0;32mI (175394) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.62 C[0m
+[0;32mI (175814) Temperature Sensor: Frame number: 0[0m
+[0;32mI (176234) Temperature Sensor: Frame number: 1[0m
+[0;32mI (176654) Temperature Sensor: Frame number: 2[0m
+[0;32mI (177074) Temperature Sensor: Frame number: 3[0m
+[0;32mI (177494) Temperature Sensor: Frame number: 4[0m
+[0;32mI (177904) Temperature Sensor: Frame number: 5[0m
+[0;32mI (178324) Temperature Sensor: Frame number: 6[0m
+[0;32mI (178744) Temperature Sensor: Frame number: 7[0m
+[0;32mI (179164) Temperature Sensor: Frame number: 8[0m
+[0;32mI (179584) Temperature Sensor: Frame number: 9[0m
+[0;32mI (180004) Temperature Sensor: Frame number: 10[0m
+[0;32mI (180004) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.58 C[0m
+[0;32mI (180424) Temperature Sensor: Frame number: 0[0m
+[0;32mI (180844) Temperature Sensor: Frame number: 1[0m
+[0;32mI (181264) Temperature Sensor: Frame number: 2[0m
+[0;32mI (181674) Temperature Sensor: Frame number: 3[0m
+[0;32mI (182094) Temperature Sensor: Frame number: 4[0m
+[0;32mI (182514) Temperature Sensor: Frame number: 5[0m
+[0;32mI (182934) Temperature Sensor: Frame number: 6[0m
+[0;32mI (183354) Temperature Sensor: Frame number: 7[0m
+[0;32mI (183774) Temperature Sensor: Frame number: 8[0m
+[0;32mI (184194) Temperature Sensor: Frame number: 9[0m
+[0;32mI (184614) Temperature Sensor: Frame number: 10[0m
+[0;32mI (184614) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.56 C[0m
+[0;32mI (185034) Temperature Sensor: Frame number: 0[0m
+[0;32mI (185454) Temperature Sensor: Frame number: 1[0m
+[0;32mI (185864) Temperature Sensor: Frame number: 2[0m
+[0;32mI (186284) Temperature Sensor: Frame number: 3[0m
+[0;32mI (186704) Temperature Sensor: Frame number: 4[0m
+[0;32mI (187124) Temperature Sensor: Frame number: 5[0m
+[0;32mI (187544) Temperature Sensor: Frame number: 6[0m
+[0;32mI (187964) Temperature Sensor: Frame number: 7[0m
+[0;32mI (188384) Temperature Sensor: Frame number: 8[0m
+[0;32mI (188804) Temperature Sensor: Frame number: 9[0m
+[0;32mI (189224) Temperature Sensor: Frame number: 10[0m
+[0;32mI (189224) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.53 C[0m
+[0;32mI (189634) Temperature Sensor: Frame number: 0[0m
+[0;32mI (190054) Temperature Sensor: Frame number: 1[0m
+[0;32mI (190474) Temperature Sensor: Frame number: 2[0m
+[0;32mI (190894) Temperature Sensor: Frame number: 3[0m
+[0;32mI (191314) Temperature Sensor: Frame number: 4[0m
+[0;32mI (191734) Temperature Sensor: Frame number: 5[0m
+[0;32mI (192154) Temperature Sensor: Frame number: 6[0m
+[0;32mI (192574) Temperature Sensor: Frame number: 7[0m
+[0;32mI (192994) Temperature Sensor: Frame number: 8[0m
+[0;32mI (193404) Temperature Sensor: Frame number: 9[0m
+[0;32mI (193824) Temperature Sensor: Frame number: 10[0m
+[0;32mI (193824) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.490 V, Avg Temp: 21.64 C[0m
+[0;32mI (194244) Temperature Sensor: Frame number: 0[0m
+[0;32mI (194664) Temperature Sensor: Frame number: 1[0m
+[0;32mI (195084) Temperature Sensor: Frame number: 2[0m
+[0;32mI (195504) Temperature Sensor: Frame number: 3[0m
+[0;32mI (195924) Temperature Sensor: Frame number: 4[0m
+[0;32mI (196344) Temperature Sensor: Frame number: 5[0m
+[0;32mI (196764) Temperature Sensor: Frame number: 6[0m
+[0;32mI (197174) Temperature Sensor: Frame number: 7[0m
+[0;32mI (197594) Temperature Sensor: Frame number: 8[0m
+[0;32mI (198014) Temperature Sensor: Frame number: 9[0m
+[0;32mI (198434) Temperature Sensor: Frame number: 10[0m
+[0;32mI (198434) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.491 V, Avg Temp: 21.71 C[0m
+[0;32mI (198854) Temperature Sensor: Frame number: 0[0m
+[0;32mI (199274) Temperature Sensor: Frame number: 1[0m
+[0;32mI (199694) Temperature Sensor: Frame number: 2[0m
+[0;32mI (200114) Temperature Sensor: Frame number: 3[0m
+[0;32mI (200534) Temperature Sensor: Frame number: 4[0m
+[0;32mI (200954) Temperature Sensor: Frame number: 5[0m
+[0;32mI (201364) Temperature Sensor: Frame number: 6[0m
+[0;32mI (201784) Temperature Sensor: Frame number: 7[0m
+[0;32mI (202204) Temperature Sensor: Frame number: 8[0m
+[0;32mI (202624) Temperature Sensor: Frame number: 9[0m
+[0;32mI (203044) Temperature Sensor: Frame number: 10[0m
+[0;32mI (203044) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.492 V, Avg Temp: 21.78 C[0m
+[0;32mI (203464) Temperature Sensor: Frame number: 0[0m
+[0;32mI (203884) Temperature Sensor: Frame number: 1[0m
+[0;32mI (204304) Temperature Sensor: Frame number: 2[0m
+[0;32mI (204724) Temperature Sensor: Frame number: 3[0m
+[0;32mI (205134) Temperature Sensor: Frame number: 4[0m
+[0;32mI (205554) Temperature Sensor: Frame number: 5[0m
+[0;32mI (205974) Temperature Sensor: Frame number: 6[0m
+[0;32mI (206394) Temperature Sensor: Frame number: 7[0m
+[0;32mI (206814) Temperature Sensor: Frame number: 8[0m
+[0;32mI (207234) Temperature Sensor: Frame number: 9[0m
+[0;32mI (207654) Temperature Sensor: Frame number: 10[0m
+[0;32mI (207654) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.493 V, Avg Temp: 21.91 C[0m
+[0;32mI (208074) Temperature Sensor: Frame number: 0[0m
+[0;32mI (208494) Temperature Sensor: Frame number: 1[0m
+[0;32mI (208904) Temperature Sensor: Frame number: 2[0m
+[0;32mI (209324) Temperature Sensor: Frame number: 3[0m
+[0;32mI (209744) Temperature Sensor: Frame number: 4[0m
+[0;32mI (210164) Temperature Sensor: Frame number: 5[0m
+[0;32mI (210584) Temperature Sensor: Frame number: 6[0m
+[0;32mI (211004) Temperature Sensor: Frame number: 7[0m
+[0;32mI (211424) Temperature Sensor: Frame number: 8[0m
+[0;32mI (211844) Temperature Sensor: Frame number: 9[0m
+[0;32mI (212264) Temperature Sensor: Frame number: 10[0m
+[0;32mI (212264) Temperature Sensor: GPIO: 2, Unit: 0, Channel: 1, Avg Voltage: 2.493 V, Avg Temp: 21.92 C[0m
+[0;32mI (212674) Temperature Sensor: Frame number: 0[0m
+[0;32mI (213094) Temperature Sensor: Frame number: 1[0m
+[0;32mI (213514) Temperature Sensor: Frame number: 2[0m
+[0;32mI (213934) Temperature Sensor: Frame number: 3[0m
+[0;32mI (214354) Temperature Sensor: Frame number: 4[0m

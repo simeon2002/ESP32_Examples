@@ -65,6 +65,7 @@ void servo_button_task(void *args)
         ESP_LOGI(TAG, "Waiting for door to open");
         xEventGroupWaitBits(servo_event_group, BIT_SERVO_BTN_PRESSED, pdTRUE, pdFALSE, portMAX_DELAY);
         servo_busy = true;
+        xEventGroupClearBits(servo_event_group, BIT_MOTION_SENSOR_CLEARED); // set to not cause immediate door closing. 
 
         duty = angle_to_duty(180.0f);
         ESP_ERROR_CHECK(ledc_set_fade_with_time(SERVO_LEDC_MODE, SERVO_LEDC_CHANNEL, duty, 750));
@@ -74,7 +75,8 @@ void servo_button_task(void *args)
         vTaskDelay(pdMS_TO_TICKS(2000));
 
         ESP_LOGI(TAG, "Waiting for door to close");
-        xEventGroupWaitBits(servo_event_group, BIT_MOTION_SENSOR_CLEARED, pdTRUE, pdFALSE, portMAX_DELAY);
+        xEventGroupWaitBits(servo_event_group, BIT_MOTION_SENSOR_CLEARED, pdTRUE, pdFALSE, pdMS_TO_TICKS(15000));
+
 
         duty = angle_to_duty(0.0f);
         ESP_ERROR_CHECK(ledc_set_fade_with_time(SERVO_LEDC_MODE, SERVO_LEDC_CHANNEL, duty, 750));
